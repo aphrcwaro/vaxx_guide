@@ -1,0 +1,657 @@
+[
+  {
+    "objectID": "index.pt.html",
+    "href": "index.pt.html",
+    "title": "Reunião de Análise por País (CAM) 2025 - Guia de Análise",
+    "section": "",
+    "text": "Bem-vindo",
+    "crumbs": [
+      "Bem-vindo"
+    ]
+  },
+  {
+    "objectID": "index.pt.html#visão-geral-da-iniciativa-countdown-to-2030",
+    "href": "index.pt.html#visão-geral-da-iniciativa-countdown-to-2030",
+    "title": "Reunião de Análise por País (CAM) 2025 - Guia de Análise",
+    "section": "Visão Geral da Iniciativa Countdown to 2030",
+    "text": "Visão Geral da Iniciativa Countdown to 2030\nA iniciativa Countdown to 2030 para a Saúde da Mulher, da Criança e do Adolescente (The Countdown) é uma colaboração global que envolve académicos de instituições nacionais, regionais e internacionais, agências da ONU, o Banco Mundial e organizações da sociedade civil. A iniciativa acompanha o progresso na Saúde e Nutrição Reprodutiva, Materna, Neonatal, Infantil e do Adolescente (RMNCAH+N), promovendo a advocacia e a responsabilização através de uma análise rigorosa de dados.\nOs principais objetivos incluem:\n\nFortalecer a análise e o monitoramento de dados liderados pelos países\nPromover a inovação e a geração de evidências através da colaboração multinacional\nAprimorar a medição e o monitoramento global\nMelhorar a comunicação de políticas e programas\n\nPara mais informações sobre a iniciativa Countdown to 2030, visite: O site The Countdown",
+    "crumbs": [
+      "Bem-vindo"
+    ]
+  },
+  {
+    "objectID": "index.pt.html#sobre-o-pacote-r-cd2030.rmncah",
+    "href": "index.pt.html#sobre-o-pacote-r-cd2030.rmncah",
+    "title": "Reunião de Análise por País (CAM) 2025 - Guia de Análise",
+    "section": "Sobre o Pacote R cd2030.rmncah",
+    "text": "Sobre o Pacote R cd2030.rmncah\nO pacote R cd2030.rmncah e o aplicativo Shiny foram desenvolvidos para apoiar a geração de evidências e a análise de indicadores RMNCAH.\nOs principais recursos incluem:\n\nInterface amigável para gerenciamento e análise de dados\nFerramentas para visualização e sumarização estatística\nGeração automatizada de relatórios",
+    "crumbs": [
+      "Bem-vindo"
+    ]
+  },
+  {
+    "objectID": "index.pt.html#agradecimentos",
+    "href": "index.pt.html#agradecimentos",
+    "title": "Reunião de Análise por País (CAM) 2025 - Guia de Análise",
+    "section": "Agradecimentos",
+    "text": "Agradecimentos\nThe Countdown reconhece e agradece a contribuição do seguinte indivíduo no desenvolvimento dos códigos Stata que formam a espinha dorsal do pacote R cd2030.rmncah e do aplicativo Shiny:",
+    "crumbs": [
+      "Bem-vindo"
+    ]
+  },
+  {
+    "objectID": "pages/general-intro.pt.html",
+    "href": "pages/general-intro.pt.html",
+    "title": "1  Abordagem CD2030 CAM",
+    "section": "",
+    "text": "1.1 Organização do Guia\nO Countdown to 2030 para a Saúde da Mulher, da Criança e do Adolescente, o GFF, a UNICEF, a OMS, a WAHO e outros parceiros estão a colaborar para fortalecer as revisões de progresso e desempenho lideradas pelos países, como as revisões anuais do setor da saúde e as revisões de meio de termo dos casos de investimento. Este guia é para as equipas analíticas dos países do Countdown desenvolverem um conjunto de estimativas nacionais e subnacionais para os principais indicadores RMNCAH-N, incluindo a equidade, utilizando séries temporais de cinco anos de dados de rotina e resultados de inquéritos.\nMuita atenção é dada à obtenção de um conjunto de dados limpo com as correções e ajustes necessários para os viés conhecidos. A cobertura e equidade dos serviços, a mortalidade materna e perinatal, e a utilização dos serviços de saúde e o desempenho dos sistemas de saúde são os principais temas, com foco no monitoramento de metas nacionais e subnacionais, bem como metas globais. A figura abaixo mostra a visão geral da abordagem CAM\nEste guia está organizado em sete seções, cada uma focada numa área específica de análise de dados relacionada com a saúde e nutrição reprodutiva, materna, neonatal, infantil e adolescente (RMNCAH-N). O guia fornece uma abordagem abrangente para analisar dados de saúde de rotina e resultados de inquéritos, com ênfase na qualidade dos dados, cobertura, equidade e desempenho dos sistemas de saúde. As sete seções de análise de dados neste guia são:\nEstas seções foram concebidas para serem utilizadas de forma modular, permitindo que os países selecionem os tópicos mais relevantes para o seu contexto e disponibilidade de dados.\nCada seção tem:",
+    "crumbs": [
+      "Sobre este Guia",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Abordagem CD2030 CAM</span>"
+    ]
+  },
+  {
+    "objectID": "pages/general-intro.pt.html#organização-do-guia",
+    "href": "pages/general-intro.pt.html#organização-do-guia",
+    "title": "1  Abordagem CD2030 CAM",
+    "section": "",
+    "text": "Seção 1: Avaliação da qualidade dos dados das unidades de saúde\nSeção 2: Análises Nacionais (Cobertura e Equidade)\nSeção 3: Análise Subnacional (Cobertura e Desigualdade)\nSeção 4: Mortalidade materna, natimortos e mortalidade neonatal\nSeção 5: Utilização de serviços de saúde curativos para crianças doentes\nSeção 6: Progresso e desempenho dos sistemas de saúde\nSeção 7: Planejamento para o futuro uso de dados\n\n\n\n\nPorquê/Justificativa - a base científica para a análise;\nAbordagem - um guia passo a passo sobre como realizar a análise; e a\nImplementação - o uso do aplicativo R Shiny para visualização e interpretação de dados.",
+    "crumbs": [
+      "Sobre este Guia",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Abordagem CD2030 CAM</span>"
+    ]
+  },
+  {
+    "objectID": "pages/general-intro.pt.html#intro-data-sources",
+    "href": "pages/general-intro.pt.html#intro-data-sources",
+    "title": "1  Abordagem CD2030 CAM",
+    "section": "1.2 Fontes de Dados",
+    "text": "1.2 Fontes de Dados\nA abordagem CD2030 CAM utiliza uma variedade de fontes de dados, incluindo:\n\nDados de unidades de saúde: Dados de saúde de rotina coletados de unidades de saúde, incluindo cobertura de serviços, desempenho de sistemas de saúde e utilização de serviços de saúde.\nInquéritos: Inquéritos representativos a nível nacional, como os Inquéritos Demográficos e de Saúde (DHS) e os Inquéritos de Aglomerados de Indicadores Múltiplos (MICS), que fornecem dados sobre indicadores de saúde, equidade e utilização de serviços de saúde.\nDados administrativos: Dados coletados por agências governamentais, como sistemas de registro vital e sistemas de informação de gestão da saúde (HMIS), que fornecem informações sobre resultados de saúde e prestação de serviços.\nOutras fontes de dados: Outras fontes de dados relevantes, como dados censitários, estimativas populacionais e dados de financiamento da saúde, que fornecem contexto adicional para a análise.",
+    "crumbs": [
+      "Sobre este Guia",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Abordagem CD2030 CAM</span>"
+    ]
+  },
+  {
+    "objectID": "pages/general-intro.pt.html#intro-expected-outputs",
+    "href": "pages/general-intro.pt.html#intro-expected-outputs",
+    "title": "1  Abordagem CD2030 CAM",
+    "section": "1.3 Resultados Esperados",
+    "text": "1.3 Resultados Esperados\n\nRelatórios de síntese/pôsteres (arquivos .pdf, .doc)\nRelatório completo do país (nacional/subnacional) (arquivos .pdf, .doc) - a ser descarregado em seções do aplicativo Shiny e compilado num relatório completo com resultados de análise e interpretações.\nArquivos reprodutíveis de análise do país (arquivos .rds)\nArquivos de dados ajustados e/ou resumidos (arquivos .csv, .dta, .xlsx)\n\nOs arquivos reprodutíveis de análise do país (arquivos .rds) são o resultado final da análise, que podem ser utilizados para análise e visualização posteriores. Esses arquivos contêm os dados limpos e processados, parâmetros de análise específicos do país, bem como os resultados da análise, incluindo indicadores de cobertura, equidade e desempenho dos sistemas de saúde.",
+    "crumbs": [
+      "Sobre este Guia",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Abordagem CD2030 CAM</span>"
+    ]
+  },
+  {
+    "objectID": "pages/getting-started.pt.html",
+    "href": "pages/getting-started.pt.html",
+    "title": "2  Primeiros passos",
+    "section": "",
+    "text": "2.1 Requisitos de software\nNo passado, as análises do Countdown to 2030 (CD2030) eram conduzidas usando Stata, baseando-se numa série de arquivos .do. Esses scripts foram desde então traduzidos para um pacote R — cd2030.rmncah — e integrados numa Aplicação Shiny de fácil utilização. Esta aplicação permite aos utilizadores de dados de saúde carregar dados, realizar avaliações da qualidade dos dados (DQA), fazer análises e gerar resultados perspicazes usando modelos de relatório pré-projetados.\nA ferramenta facilita a inspeção aprofundada da qualidade dos dados e suporta a análise subnacional (até o nível administrativo 2) para vários indicadores relacionados à qualidade dos dados e aos resultados RMNCAH.\nPara usar esta ferramenta inovadora de análise de saúde digital, são necessários os seguintes:",
+    "crumbs": [
+      "Sobre este Guia",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Primeiros passos</span>"
+    ]
+  },
+  {
+    "objectID": "pages/getting-started.pt.html#sec-software-requirements",
+    "href": "pages/getting-started.pt.html#sec-software-requirements",
+    "title": "2  Primeiros passos",
+    "section": "",
+    "text": "Instalar as versões mais recentes do R e do RStudio\nInstalar o pacote R cd2030.rmncah (instruções de instalação disponíveis aqui)\nGarantir o acesso a todos os conjuntos de dados e parâmetros necessários\nInstalar o RTools (para utilizadores Windows, para suportar a compilação de pacotes)",
+    "crumbs": [
+      "Sobre este Guia",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Primeiros passos</span>"
+    ]
+  },
+  {
+    "objectID": "pages/getting-started.pt.html#sec-instal-r",
+    "href": "pages/getting-started.pt.html#sec-instal-r",
+    "title": "2  Primeiros passos",
+    "section": "2.2 Instalação do R e do RStudio",
+    "text": "2.2 Instalação do R e do RStudio\nPara começar a trabalhar em R, é necessário instalar tanto o R quanto o RStudio. R é a linguagem de programação subjacente, enquanto o RStudio fornece uma interface amigável que simplifica o desenvolvimento e a execução de scripts R. Ambos estão disponíveis gratuitamente e são amplamente suportados em todas as plataformas.\nNota: R e RStudio não são a mesma coisa. R é a linguagem de programação, enquanto RStudio é um ambiente de desenvolvimento integrado (IDE) que facilita o trabalho com R.\nPara garantir uma instalação e funcionalidade suaves, é recomendado instalar o R primeiro, seguido do RStudio. Esta ordem é importante, pois o RStudio depende do R para funcionar corretamente.\n\n2.2.1 Passo 1: Baixar e Instalar o R\nO R é distribuído através do Comprehensive R Archive Network (CRAN). Selecione o seu sistema operativo na página inicial: Windows, Mac ou Linux.\nWindows\n\nNavegue até Download R for Windows e selecione a opção “base”.\nClique no primeiro link (por exemplo, “Download R x.x.x for Windows”) para baixar o instalador.\nExecute o instalador e siga as instruções. Privilégios de administrador podem ser necessários.\nO R será instalado nos Arquivos de Programas do seu sistema, com um atalho adicionado ao menu Iniciar.\n\nMac\n\nClique em Download R for Mac na página inicial do CRAN.\nBaixe o pacote da versão mais recente e execute o instalador.\nAs configurações de instalação padrão são geralmente suficientes. Pode ser solicitado que insira a sua senha do sistema.\n\nNota\nR não é uma aplicação de software gráfica, mas um ambiente de programação. É melhor usado em conjunto com o RStudio, que fornece uma interface consistente e amigável em todos os sistemas operativos.\n\n\n2.2.2 Passo 2: Baixar e Instalar o RStudio\nRStudio é um ambiente de desenvolvimento integrado (IDE) projetado para R. Ele possui um editor de script, console, visualizador gráfico e ferramentas adicionais para gerenciamento de pacotes, depuração e organização de arquivos.\nBaixe o RStudio do site da Posit\nAinda preciso baixar o R? Mesmo que use o RStudio, ainda precisará baixar o R para o seu computador. O RStudio ajuda-o a usar a versão do R que está no seu computador, mas não vem com uma versão própria do R.\nApós a instalação, inicie o RStudio e comece a interagir com o R através da sua consola e janelas de script.",
+    "crumbs": [
+      "Sobre este Guia",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Primeiros passos</span>"
+    ]
+  },
+  {
+    "objectID": "pages/getting-started.pt.html#sec-instal-cd2030-rmncah",
+    "href": "pages/getting-started.pt.html#sec-instal-cd2030-rmncah",
+    "title": "2  Primeiros passos",
+    "section": "2.3 Instalação do pacote CD2030 RMNCAH",
+    "text": "2.3 Instalação do pacote CD2030 RMNCAH\nApós instalar o R e o RStudio, pode prosseguir com a instalação da aplicação Countdown2030 RMNCAH, que está alojada no GitHub sob o repositório cd2030.rnncah. A aplicação é implementada como um pacote R e suporta a geração interativa de dashboards via Shiny.\n\n2.3.1 Instalação via Consola R\nVersão Estável\n\nif (!requireNamespace(\"devtools\", quietly = TRUE)) install.packages(\"devtools\")\ndevtools::install_github(\"aphrcwaro/cd2030.rmncah@v1.0.0\")\n\nVersão de Desenvolvimento\n\n\nif (!requireNamespace(\"devtools\", quietly = TRUE)) install.packages(\"devtools\")\ndevtools::install_github(\"aphrcwaro/cd2030.rmncah\")\n\n\n\n2.3.2 Lançamento da Aplicação\n\n\nlibrary(cd2030.rmncah)\ndashboard()\n\nO dashboard Shiny será iniciado automaticamente no seu navegador web padrão.\n\n\n\n\n\n\n\n\n\n\n\n2.3.3 Instalação Alternativa via GitHub Desktop ou Git ou download direto\nUtilizadores avançados com contas GitHub podem preferir clonar o repositório diretamente. Este método permite:\n\nControle de versão\nContribuição para o código\nContribuição para o código\nInspeção da estrutura do pacote\nUma vez clonado, abra o arquivo .Rproj no RStudio para definir o diretório de trabalho.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPara instalar e executar:\n\nlibrary(cd2030.rmncah)\ndashboard\n\n\n\n2.3.4 RTools para Windows\nPara compilar pacotes a partir do código-fonte, especialmente versões de desenvolvimento, o RTools deve ser instalado. Garanta a compatibilidade com a sua versão instalada do R:\n\nR 4.2.0 → Rtools42\nR 4.4.0 → Rtools44\nR 4.5.0 → Rtools45\n\nO RTools pode ser baixado do CRAN",
+    "crumbs": [
+      "Sobre este Guia",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Primeiros passos</span>"
+    ]
+  },
+  {
+    "objectID": "pages/getting-started.pt.html#sec-data-requirements",
+    "href": "pages/getting-started.pt.html#sec-data-requirements",
+    "title": "2  Primeiros passos",
+    "section": "2.4 Requisitos de Dados",
+    "text": "2.4 Requisitos de Dados\n\n2.4.1 Conjuntos de Dados Necessários\nPara executar a análise de forma eficiente, cada equipa de país precisará ter uma pasta contendo os seguintes conjuntos de dados:\n\nDados de unidades de saúde (arquivo .xlsx)\nEstimativas das Nações Unidas\nDados de inquéritos\nDados de mortalidade das Nações Unidas\nDados FPET\n\nEstes conjuntos de dados serão fornecidos às equipas de país pela equipa Countdown2030 antes do workshop.\n\n\n2.4.2 Parâmetros de análise específicos do país\nOs (parâmetros) seguintes serão necessários para executar a análise.",
+    "crumbs": [
+      "Sobre este Guia",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Primeiros passos</span>"
+    ]
+  },
+  {
+    "objectID": "pages/app-features.pt.html",
+    "href": "pages/app-features.pt.html",
+    "title": "3  App Features",
+    "section": "",
+    "text": "3.1 Overview of App Features\nThis section details the main components of the cd2030.rmncah Shiny App interface: the Title Bar, Sidebar, and Main Panel (Body Content). Understanding these elements will help you navigate and use the app more effectively.",
+    "crumbs": [
+      "Sobre este Guia",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>App Features</span>"
+    ]
+  },
+  {
+    "objectID": "pages/app-features.pt.html#title-bar",
+    "href": "pages/app-features.pt.html#title-bar",
+    "title": "3  App Features",
+    "section": "3.2 Title Bar",
+    "text": "3.2 Title Bar\nThe Title Bar, located at the top of the app, provides key information controls. The elements of the Title Bar, such as “Set Cache Directory/Save Cache” and “Download Report,” are only displayed after data has been loaded.\n\n3.2.1 Key Elements of the Title Bar\n\nContextual Information: Displays the current analysis context, such as the country of analysis (e.g., “Madagascar - Countdown Analysis”).\n\n\n\n\n\n\n\n\n\n\n\nCache Management\n\n\n\n\n\n\n\n\n\n\nSet Cache Directory: This button allows you to specify a directory for saving intermediate results and progress.\nSave Cache: This button allows you to save the progress of your analysis. This is useful for large analyses or for resuming a session later.\nNB:\n\nThe Cache button is enabled only once valid data has been uploaded into the App\nChanging the file path of the Cache mid analysis would require you to set the cache again, losing any saved progress after the last save.",
+    "crumbs": [
+      "Sobre este Guia",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>App Features</span>"
+    ]
+  },
+  {
+    "objectID": "pages/app-features.pt.html#sidebar",
+    "href": "pages/app-features.pt.html#sidebar",
+    "title": "3  App Features",
+    "section": "3.3 Sidebar",
+    "text": "3.3 Sidebar\nThe Sidebar is located on the left side of the app and contains the main navigation elements.It provides navigation through the analysis workflow. The sections are arranged sequentially to guide you through the process.\n\n3.3.1 Sidebar Navigation\n\n\n\n\n\n\n\n\n\n\nIntroduction: Provides a brief overview of the app’s purpose and functionality.\nLoad Data: Allows you to upload and manage your datasets (e.g. Health Facility Datasets, Master datasets, and cache file).\nData Quality: Provides tools for assessing the quality of your data, including checks for missing values and inconsistencies. Subsections include:\n\nReporting Rate\nOutlier Detection\nConsistency Check\nData Completeness\nCalculate Ratios\nOverall Score\n\n\n\n\n\n\n\n\n\n\n\n\nAnalysis Set-up: Allows you to configure the analysis by selecting the data sources (UN Estimates, WUENIC estimates, and survey data). It also allows you to map the sub-national survey and mapping data to the uploaded data.\n\n\n\n\n\n\n\n\n\n\n\nNational Analysis: Provides tools for analyzing national-level data, including coverage and equity analysis.\nSub-National Analysis: For all sub-national analyses\nMortality Analysis: For all mortality analyses\nService Utilization: ForCurative health services utilization for sick children analyses\nHealth System Performance: Health systems progress and performance analysis",
+    "crumbs": [
+      "Sobre este Guia",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>App Features</span>"
+    ]
+  },
+  {
+    "objectID": "pages/app-features.pt.html#main-panelbody-content",
+    "href": "pages/app-features.pt.html#main-panelbody-content",
+    "title": "3  App Features",
+    "section": "3.4 Main Panel(Body Content)",
+    "text": "3.4 Main Panel(Body Content)\nThe main panel is the central workspace where the analysis result, visualizations, and interactive elements are displayed.\n\n3.4.1 Key Elements of the Main Panel\n\nPage Title: Displays the current module or analysis step (e.g., “Reporting Rate”).\n\n\n\n\n\n\n\n\n\n\n\nAction Buttons: Provides context-specific actions:\n\nDownload Report: Helps you to download two reports: Synthesis report and the Subnational one paper report\nGenerate Report: Downloads a report specific to the analysis section.\nNB: This button is green in colour and only appears in the sections where the user can download the section reports.\nGet Help: Provides context-specific help and documentation for the current page.\nDownload Plot / Download Data: Allows the user to download the displayed output and the data associated with the output, respectively.",
+    "crumbs": [
+      "Sobre este Guia",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>App Features</span>"
+    ]
+  },
+  {
+    "objectID": "pages/loading-data.pt.html",
+    "href": "pages/loading-data.pt.html",
+    "title": "4  Loading Health facility data",
+    "section": "",
+    "text": "4.1 Supported File Formats\nThis section explains how to structure and upload data into the app, ensuring compatibility with the Countdown Health facility data format\nPlease note that should you update your data during the workshop, ensure it is in the correct format before uploading to avoid errors.\nThe app supports uploading the following file types:",
+    "crumbs": [
+      "Sobre este Guia",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Loading Health facility data</span>"
+    ]
+  },
+  {
+    "objectID": "pages/loading-data.pt.html#supported-file-formats",
+    "href": "pages/loading-data.pt.html#supported-file-formats",
+    "title": "4  Loading Health facility data",
+    "section": "",
+    "text": ".xls, .xlsx (Excel files)- The raw health facility dataset in the Countdown format\n.dta (Stata files) - Master dataset downloaded from the app after validation/adjustment\n.rds (R Cached datafile) - The file containing the preloaded dataset, user adjustments and analysis parameters that has been &gt; saved in the Cache directory. This will be the last saved file.",
+    "crumbs": [
+      "Sobre este Guia",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Loading Health facility data</span>"
+    ]
+  },
+  {
+    "objectID": "pages/loading-data.pt.html#how-to-upload-data",
+    "href": "pages/loading-data.pt.html#how-to-upload-data",
+    "title": "4  Loading Health facility data",
+    "section": "4.2 How to Upload Data",
+    "text": "4.2 How to Upload Data\nStep 1: Prepare Your data file\nEnsure your data is cleaned and structured according to the The Countdown Health facility data format by:\n\nUsing the provided HFD Standardized Template to format your data &gt; correctly.\nSaving the file in a supported format: .xls, .xlsx, .dta, or .rds.\n\nStep 2: Upload the File\n\nNavigate to the Upload Data section of the app.\nDrag and drop your file into the upload box, or click Browse &gt; to select it manually in your directory.\nFor subsequent re-uploads (after the initial uploading of the .xls, &gt; .xlsx, .dta files and saving your progress in .rds file using the &gt; Cache Directory button), do not reupload the .xls, .xlsx, .dta but &gt; the saved .rds file if you want to retain any changes made in your &gt; analytical files\nThe app will validate your file against the Countdown format.\n\nIf successful, a confirmation message will appear: “Upload &gt; successful: Your file is ready for analysis.”\nIf errors are detected, an error message will indicate the &gt; issue.",
+    "crumbs": [
+      "Sobre este Guia",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Loading Health facility data</span>"
+    ]
+  },
+  {
+    "objectID": "pages/loading-data.pt.html#common-errors-and-how-to-fix-them",
+    "href": "pages/loading-data.pt.html#common-errors-and-how-to-fix-them",
+    "title": "4  Loading Health facility data",
+    "section": "4.3 Common Errors and How to Fix Them",
+    "text": "4.3 Common Errors and How to Fix Them\n\n\n\n\n\n\n\n\nError Message\nCause\nSolution\n\n\n\n\n“Unsupported file format”\nFile type not supported\nSave your file as .xls, .xlsx, .dta, or .rds.\n\n\n“The following required columns are missing from the data: opv1”\nMissing essential columns in the data\nAdd the missing column(s) to your dataset and ensure their values are valid.\n\n\n“The following sheets are missing: Service_data_1, Service_data_2, Service_data_3, Reporting_completeness, Population_data, Admin_data”\nMissing one or more required sheets in the file\nAdd the missing sheets to your file and ensure they conform to the template.\n\n\n“Sheet Service_data_3 is empty”\nThe sheet exists but contains no data\nPopulate the sheet with valid data or remove the empty sheet.\n\n\n“Key Columns”month” missing in Service_data_3”\nA key column district, year, or month, is missing from the specified sheet\nAdd the missing column(s) to the sheet and ensure the data is structured correctly.\n\n\n“Column name month must not be duplicated. Use .name_repair to specify repair.”\nDuplicate column names in the dataset\nEnsure all column names are unique. Rename or remove duplicate columns.\n\n\n\nNote: If a key column (district, year, or month) is missing data in a row, that row will be excluded from the resulting dataset.",
+    "crumbs": [
+      "Sobre este Guia",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Loading Health facility data</span>"
+    ]
+  },
+  {
+    "objectID": "pages/loading-data.pt.html#tips-for-a-successful-upload",
+    "href": "pages/loading-data.pt.html#tips-for-a-successful-upload",
+    "title": "4  Loading Health facility data",
+    "section": "4.4 Tips for a Successful Upload",
+    "text": "4.4 Tips for a Successful Upload\n\nAlways use the latest The Countdown Health facility data format &gt; template to structure your data.\nDouble-check column names, formats, and content before uploading.\nSave your file in a supported format and ensure it is UTF-8 encoded",
+    "crumbs": [
+      "Sobre este Guia",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Loading Health facility data</span>"
+    ]
+  },
+  {
+    "objectID": "pages/numerator-assessment.pt.html",
+    "href": "pages/numerator-assessment.pt.html",
+    "title": "5  Numerators Assessment",
+    "section": "",
+    "text": "5.1 Rationale, Approach and implementation\nRationale: Scientific basis for the analysis\nRoutinely reported health facility data are an important data source for health indicators at facility and population level. The data are reported by health facilities on events such as immunizations given, or live births attended. As with any data, quality is an issue. Data needs to be checked to consider completeness of reporting by health facilities, identify extreme outliers and internal consistency. A standard reporting method for data quality allows assessment of progress over time.\nApproach: Description of analytical steps\nThe analysis of the monthly data by district for 2019-2024 is used to assess annual data quality using the following standard indicators: Reporting completeness, Outlier detection,Internal Consistency Data completeness, Ratios calculation, Overall quality score\nImplementation: Conducting analysis in the Shiny App",
+    "crumbs": [
+      "Avaliação da Qualidade dos Dados",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Numerators Assessment</span>"
+    ]
+  },
+  {
+    "objectID": "pages/numerator-assessment.pt.html#dqa-metrics-calculation-and-interpretation",
+    "href": "pages/numerator-assessment.pt.html#dqa-metrics-calculation-and-interpretation",
+    "title": "5  Numerators Assessment",
+    "section": "5.2 DQA Metrics calculation and interpretation",
+    "text": "5.2 DQA Metrics calculation and interpretation\n\n5.2.1 Reporting Completeness\n\n\n\n\n\n\n\n\n\n\n\n\nCompleteness of Monthly Facility Reporting\n\n\n\nIndicator\nNumerator\nDenominator\nInterpretation\n\n\n\n\n1a\nN of monthly facility reports received\nTotal N of facility reports expected (usually 12 × N of facilities with the service)\nReporting rates over 90% are good; changes in reporting completeness over time affects trend analysis\n\n\n1b\nN of districts with at least 90% monthly reporting completeness in a year\nTotal N of districts\nCan be used to identify districts with low reporting rates in multiple years\n\n\n1c\nN of districts with no missing values for any of the 4 forms in a year\nTotal N of districts\nAdditional indicator, is not used to compute the overall data quality score\n\n\n\n Statistics for 1a and 1b are based on the mean of 4 reporting forms (ANC, delivery, immunization, OPD)\n\n\n\n\n\n\n\n\n\nWithin the Shiny App, you can select the indicator of interest, the reporting rate cutoff point (performance Threshold)- the default value has been set at 90% reporting rate.\nYou can also choose the level of you analysis (Admin Level (Regions) or District level). Below is an output for ANC reporting rate at THE Admin Level 1.\n\n\n\n\n\n\n\n\n\nThe app will automatically compute the overall data quality score based on the metrics described above. The app will also produce a report with the results of the data quality assessment, including the numerators and denominators for each indicator, as well as the overall data quality score. []\n\n\n5.2.2 Data Completeness\n\n\n\n\n\n\n\n\n\n\n\n5.2.3 Outlier Detection\n\n\n\n\n\n\n\n\n\n\n\n\nExtreme Outliers\n\n\n\nIndicator\nNumerator\nDenominator\nInterpretation\n\n\n\n\n2a\nN of monthly values that are not extreme outliers in a specific year\nTotal N of monthly values (usually 12 * N years to be analyzed)\nAt least 99% of monthly data expected not to be an extreme outlier; consider reasons\n\n\n2b\nN of districts with no extreme outliers in a specific year\nTotal N of districts\nAt least 90% of districts should have no extreme outliers at all; consider reasons\n\n\n\n Outliers are identified statistically; definitions may vary depending on methods used.\n\n\n\n\n\n\n\n\n\n\n\n5.2.4 Internal Consistency\n\n\n\n\n\n\n\n\n\n\n\n\nConsistency of Annual Reporting\n\n\n\nIndicator\nNumerator\nDenominator\nInterpretation\n\n\n\n\n3a\nN of ANC1 reported\nN of penta1 reported\nNational ratio within an expected range (1.05 to 1.10 if survey coverage ANC1 and penta1 are the same – see below)\n\n\n3b\nN of penta1 reported\nN of penta3 reported\nNational ratio within an expected range, based on the survey results (see below)\n\n\n3c\nN of districts with ratios within the expected range\nTotal N of districts\nFor districts there is more variation in the ratio: a wider range is considered\n\n\n3d\nN of districts within the expected range\nTotal N of districts\nFor districts there is more variation in the ratio: a wider range is considered\n\n\n\n\n\nThere is often an inconsistency between antenatal and immunization data, even though we can argue that the two should be consistent. To examine the association between ANC1 and penta1 is particularly informative.\n\n\n\n\n\n\n\n\n\nTo compute and interpret indicators 3a and 3b the following considerations need to be made:\nANC1 to penta1 ratio\nWe can compute an expected ratio ANC1 to penta1 based on assumptions about mortality between early to mid pregnancy and early infancy and survey data on coverage of ANC1 and penta1 in the population:\n\nConsider the mortality between the first ANC visit and the first pentavalent vaccination.\nAssuming that ANC1 takes place at about 20 weeks or 4-5 months of pregnancy and penta1 at 6-8 weeks postpartum, we assume a pregnancy loss (abortion) after the ANC1 visit of 3%, a stillbirth rate of 2%, a twinning rate of 1.5% and neonatal mortality rate before the penta1 of 3% then the difference between the numbers of ANC1 and penta1 should be: \\[1 - 0.03 -0.02 + 0.015 - 0.03 = 0.935 \\] This corresponds with a ANC1 to penta1 ratio of \\[1/0.935 = 1.07\\]\nActual population coverage of ANC1 and penta1 will also need to be considered, using the surveys.\nThe expected ratio (the number of ANC1/ number of penta1 in facilities) is 1.07 * (ANC1 coverage in the survey/penta1 coverage in the survey). If coverage for ANC1 and penta1 are the same, then the ratio is \\[ 1.07 (1.07 \\times 1/1) \\]\nBut if, for example, the last survey shows that ANC1 coverage was 90% and penta1 coverage was 95%, then the expected ratio becomes \\1.07 * (.90/.95) = 1.01*.\nFor the national ANC1 to penta1 ratio a range of plus or minus 0.05 outside this computed ratio is considered acceptable. If the ratio is outside this range, this should be flagged, and possible explanations discussed.\n\nPenta1 to penta3 ratio\nWe can compute an expected penta1 to penta3 ratio based on the most recent survey:\n\nThe main factor determining the penta1 to penta3 ratio, which are recommended at 6 and at 14 weeks of age, is the actual drop-out rate between penta1 and penta3, as mortality plays a limited role.\nPopulation coverage rates from the latest survey are used to determine the expected penta1 to penta3 ratio in the facility data. For instance, if penta1 coverage is 95% and penta3 coverage is 85%, we expect that ratio to be 0.95/0.85 = 1.12.\nAlso, here a range of plus or minus 0.05 is considered acceptable for the assessment of the facility data.\n\nThe Figure below produced in the ShinyApp shows the ratios for all six years (2019-2024) and the expected value. It will be important to reflect on large differences (e.g., more than 0.10 or 10%.).\n\n\n\n\n\n\n\n\n\n\n\n5.2.5 Overall DQA Score\nIn this section, the overall DQA score is calculated by considering the mean scores within some preselected data quality metrics as below.\n\n\n\n\n\n\n\n\n\n\n\n\nSummary of Performance\n\n\n\nIndicator\nNumerator\nDenominator\nInterpretation\n\n\n\n\n\n\n\nAnnual data quality score (mean 1a, 1b, 2a, 2b, 3c, 3d)\n\n\n\n\n\nIt is in this section that the first section report is downloaded capturing the key DQA indicators as shown below.\n\n\n\n\n\n\n\n\n\n\n\n5.2.6 DQA Report and interpretation\nThe first report - DQA - is generated using the Generate Report button.\nThe interpretation for this section should seek to answer the following questions:\n\nIs there a data quality pattern by year for which there is an explanation? (include the explanation)\nAre there certain regions or other sub-national units that are particularly problematic?\nAre there certain reporting forms or services (e.g., antenatal care, labour and delivery, immunization) that are problematic?\nIs there good consistency between reported numbers of ANC1 and penta1?\n\n¹ An extreme outlier is defined as a monthly value that is 5 times the median absolute deviation (MAD) from the monthly median value for a particular year.",
+    "crumbs": [
+      "Avaliação da Qualidade dos Dados",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Numerators Assessment</span>"
+    ]
+  },
+  {
+    "objectID": "pages/numerator-adjustments.pt.html",
+    "href": "pages/numerator-adjustments.pt.html",
+    "title": "6  Numerator adjustments",
+    "section": "",
+    "text": "6.1 Rationale, Approach and implementation\nRationale: Scientific basis for the analysis\nThe completeness of reporting may affect the analysis, especially if completeness is low or varies between years. Extreme outliers, such as an accidental extra zero in a number, can have a large impact, especially on subnational numbers. Following the assessments, several steps are necessary to obtain a clean data set for analysis. This implies adjusting for incomplete reporting and correcting for extreme outliers.\nApproach: Description of analytical steps\nIf we do not consider reporting completeness that means we assume all non-reporting facilities provided zero services, which is not likely to be true. Adjustments depend on how much services (e.g., pregnancy care, vaccinations) were provided at non-reporting facilities compared to those that reported. The adjustment factor k - defined as the ratio of the volume of services provided by non-reporting facilities to the volume of services provided by reporting facilities - is used to adjust the reported numbers for incomplete reporting.",
+    "crumbs": [
+      "Avaliação da Qualidade dos Dados",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Numerator adjustments</span>"
+    ]
+  },
+  {
+    "objectID": "pages/numerator-adjustments.pt.html#sec-numerator-adjustment",
+    "href": "pages/numerator-adjustments.pt.html#sec-numerator-adjustment",
+    "title": "6  Numerator adjustments",
+    "section": "6.2 Numerator Adjustment",
+    "text": "6.2 Numerator Adjustment\nTo account for incomplete reporting, the reported number of events can be adjusted using completeness and facility reporting ratio, with the following formula:\n\\[\nN_{\\text{adjusted}} = N_{\\text{reported}} + N_{\\text{reported}} \\times \\left( \\frac{1}{c} - 1 \\right) \\times k\n\\]\nWhere:\n\n$N_{\\text{adjusted}} $: Total number of events adjusted for incomplete reporting\n\\(N_{\\text{reported}}\\): Number of events reported\n\\(( c )\\): Reporting completeness (e.g., proportion of facilities that reported)\n\\(( k )\\): Adjustment factor to account for lower service volume in non-reporting facilities\n\nAs a default value, we use \\(k=0.25\\) , which means the non-reporting facilities provided services but only at a volume which was a quarter of the reporting health facilities.\nThe factor k can be different for different services. For instance, if private facility reporting is poor but they are in the national system and they provide a considerable number of deliveries, k maybe greater than 0.25 or even as high as 1.0.\nThe following k-values are used depending on the reporting used to adjust the reported numbers for incomplete reporting:\n\n\\(k=0\\) - No services in non-reporting facilities (default k-value)\n\\(k=0.25\\) - Some services, but much lower than reporting facilities\n\\(k=0.50\\) - Half the rate compared to reporting facilities\n\\(k=0.75\\) - Nearly as much as reporting facilities\n\\(k= 1.0\\) - Same rate of services as reporting facilities\n\nIf the facility reporting rate is below 75%, it becomes more difficult to impute district data. Therefore, no adjustments are made if reporting is lower than 75%. In that case, further analysis to determine coverage with the facility data is not considered sufficiently reliable.\nExtreme outliers, as defined in the previous section, will be corrected by imputing the median monthly value of the same year. The table summarizes the adjustments.\nTable 2: Summary of adjustments made to the raw health facility data in preparation of a clean data set for the endline analysis\n\n\n\n\n\n\n\n\nProblem\nAction\nAdjustment\n\n\n\n\nLow reporting rates: identifying low rates that were adjusted\nIf below 75% (default), data were imputed\nMedian monthly value for the district year was imputed for the month with low reporting\n\n\nIncomplete reporting by districts, variable over time, affecting trend assessment\nIf reporting rates were &gt;=75% and &lt;= 100% default), an assumption was made about the volume of services provided by the non-reporting facilities\nAdjustment factor k value was used to adjust for incomplete reporting k default value 0.25 (replace if different value used; state if used for all reporting forms or different k factors between forms)\n\n\nExtreme outliers can greatly affect coverage trend assessments\nIf a monthly value was greater or smaller than 5 times the median absolute deviation (MAD) from district monthly median value, an adjustment was made\nExtreme monthly outliers are corrected and given the district median value for the same year\n\n\nMissing values\nIf there is a missing value, data were imputed\nDistrict median monthly value for the year was imputed for the month with missing value",
+    "crumbs": [
+      "Avaliação da Qualidade dos Dados",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Numerator adjustments</span>"
+    ]
+  },
+  {
+    "objectID": "pages/numerator-adjustments.pt.html#sec-dqa-adjust-implement",
+    "href": "pages/numerator-adjustments.pt.html#sec-dqa-adjust-implement",
+    "title": "6  Numerator adjustments",
+    "section": "6.3 Implementation: Conducting analysis in the Shiny App",
+    "text": "6.3 Implementation: Conducting analysis in the Shiny App\n\nThe outputs for this analysis can be obtained through the Data adjustment section of the Shiny App.\nSelect the \\(k-factor\\) that is deemed appropriate given your country context.\n\n\n\n\n\n\n\n\n\n\n\n6.3.1 Remove Years\nThe Remove Years section allows you to remove any years with no data or whose data has been determined to not be fit for analysis by the country team due to quality issues.\nIt is recommended to be used in instances where the data quality is poor, or the country teams have sufficient, contextual information that renders the said year(s)’ data unreliable/inaccurate.This will ensure that the analysis is based on reliable data.\n\n\n\n\n\n\n\n\n\n\n\n6.3.2 Adjustment outputs\n\nThis Section produces a master adjusted dataset (.dta) ready for analysis and plots for different indicators showing data adjustment changes. In the image below, we can see the adjustment output after making no adjustment to the data \\((k=0)\\).\n\n\n\n\n\n\n\n\n\n\n\n\n6.3.3 Report\n\nThe interpretation should include the selected adjustment factor (factor k) that was used to adjust for incomplete reporting (if necessary, by service). If the default factor is used, then report this and explain what this means for the reader.\nReport the percent change that the adjustment made in reported numbers of institutional deliveries and in penta1 (average of the 6-year period);\nYou may want to :\n\nHighlight the year with the greatest impact of the adjustment if there is one;\nInterpret if the impact of the adjustment on coverage rates is large or small;\nMake the same description and interpretations for penta1 vaccinations.",
+    "crumbs": [
+      "Avaliação da Qualidade dos Dados",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Numerator adjustments</span>"
+    ]
+  },
+  {
+    "objectID": "pages/denominator-assessment.pt.html",
+    "href": "pages/denominator-assessment.pt.html",
+    "title": "7  Denominator Assessment and selection",
+    "section": "",
+    "text": "7.1 Rationale, Approach and Implementation\nRationale: Scientific basis for the analysis\nService coverage is defined as the population who received the service divided by the population who need the services (also referred to as target population). The numerators of coverage statistics (e.g., number of live births in health facilities) are derived from the health facility data and need to be adjusted as shown in the previous section. The denominator of the coverage statistics (e.g., number of live births in the population) needs to be estimated for national and sub-national levels (regions/provinces and districts).\nApproach: Description of analytical steps\nThe objective of the health facility denominator analysis is twofold:\nThis should lead to a final decision on denominators that are used for the analyses of population-based coverage indicators based on health facility data.\nEach indicator has its own denominator, as shown in the table below.\nTable 3: Selected indicators with numerators and denominators",
+    "crumbs": [
+      "Avaliação da Qualidade dos Dados",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Denominator Assessment and selection</span>"
+    ]
+  },
+  {
+    "objectID": "pages/denominator-assessment.pt.html#rationale-approach-and-implementation",
+    "href": "pages/denominator-assessment.pt.html#rationale-approach-and-implementation",
+    "title": "7  Denominator Assessment and selection",
+    "section": "",
+    "text": "First, we assess the quality of the population projections in DHIS2 by comparison with the UN projections and the internal consistency.\nThen, we assess the performance of multiple denominators options for the computation of population-based service coverage indicators from the health facility data.\n\n\n\n\n\n\n\n\n\n\n\n\nIndicators\nNumerator\nDenominator\n\n\n\n\nSERVICE UTILIZATION\n\n\n\n\nOutpatient visits, children under 5, per year (N)\nN of OPD visits for under-5\nTotal mid-year population under 5\n\n\nInpatient admissions, children under 5, per year (N)\nN of admissions for under-5\nTotal mid-year population under 5\n\n\nPREVENTIVE INTERVENTIONS\n\n\n\n\n% of pregnant women with 4 antenatal care visits\nN of women with ANC 4th visit\nTotal N of pregnant women in the whole population\n\n\n% of live births in health facilities\nN of live births in health facilities\nTotal N of live births in the whole population\n\n\n% of infants receiving 3 doses of pentavalent vaccine\nN of infants receiving 3 doses\nN of infants eligible for 3 doses of the vaccine\n\n\nCURATIVE INTERVENTIONS\n\n\n\n\n% of children under 5 with malaria who receive ACT\nN of children under 5 with malaria receiving ACT\nTotal N of children who had malaria in the last year\n\n\n% of deliveries that were by C-section (population)\nN of C-sections reported\nTotal N of deliveries in the population\n\n\n% of deliveries that were by C-section (institutional)\nN of C-sections reported\nTotal N of deliveries in health facilities\n\n\nMORTALITY\n\n\n\n\nInstitutional maternal mortality ratio\nN of maternal deaths in health facilities\nTotal number of live births in health facilities\n\n\nStillbirth rate\nN of stillbirths in health facilities\nTotal N of births in health facilities\n\n\nNeonatal mortality before discharge\nN of neonatal deaths before discharge (after birth)\nTotal N of live births in the health facilities\n\n\nFAMILY PLANNING (FP)\n\n\n\n\nRatio FP visits to women of reproductive age\nN of FP new and revisits\nTotal N of women 15-49 years\n\n\nEstimated modern use of contraceptives\nCouple years of protection\nTotal N of women 15-49 years\n\n\nFP coverage (demand satisfied)\nN of women using modern methods\nTotal N of women in need of FP\n\n\n\n\n7.1.1 Part 1: Quality Assesment of Population projections in DHIS2\nIn the first part, we assess the quality of the DHIS2 population projections at national level:\n\nCheck the internal consistency of the DHIS2 population growth over time:\n\nCompute the population growth rate:\n\\[\n\\text{Pop growth} = \\frac{\\text{Pop}_{2024} - \\text{Pop}_{2023}}{\\text{Pop}_{2023}},\n\\]then the crude birth rates (defined as the number of live births in DHIS2 projections per 1,000 population). We expect both rates to be consistent over time (e.g., less than 2 per 1,000 difference between years).\n\nCompare the population data in DHIS2 with the UN population projections at the national level:\n\nDifferences may occur, but large discrepancies suggest issues with DHIS2 population projections. The comparison is done for four indicators. Abnormal values are flagged:\n\nPopulation size:\nA relative difference between DHIS2 and UN-projected population size greater than 5% should be considered a data quality issue with the DHOS2 projections.\n\\[\n\\text{Relative difference} = \\left| \\frac{\\text{Pop}_{\\text{DHIS2}} - \\text{pop}_{\\text{UN}}}{\\text{Pop}_{\\text{UN}}} \\right|\n\\]\nPopulation growth during 2023–2024:\nAnnual growth is computed using the natural logarithm as below.\n\nInterpretation: A difference greater than 0.3% (absolute) between DHIS2 and UN estimates is concerning.\n\\[\n\\ln \\left( \\frac{\\text{Pop}_{2024}}{\\text{Pop}_{2023}} \\right)\n\\]\n\nCrude birth rate (CBR):\n\nDefined as the number of live births per 1,000 population. We compare the DHIS2 CBR for 2023 with the UN estimate of the CBR for the same year.\nInterpretation: If the difference is greater than 5 per 1,000 population, the DHIS2 may be problematic.\nDHIS2 CBR is defined as:\n\\[ CBR = \\frac{\\text{Total Projected livebirths}}{\\text{Total Population}} \\times 1000 \\]\nInterpretation: A difference greater than 5 per 1,000 population compared to the UN estimate suggests a data quality issue.\n\nCrude death rate (CDR):\nDefined as the number of deaths per 1,000 population. It is the difference between the CBR and the population growth if thereis no major out- or in-migration.\nWe compute the CDR from the DHIS2 projections as shown in the equation below\nInterpretation: A negative CDR or a CDR &lt; 5 per 1,000 indicates inconsistency and potential data problems.\n\n\\[CDR = CBR - \\text{Population growth rate} ; \\text{(both expressed per 1,000 population )}\\]\n\n\n7.1.2 Part 2: Best Denominator Selection\nThe second part is to select the best performing denominator for population coverage estimates with facility data. First, we compare the results for different denominators at the national level.\nFor the national level, we evaluate 4 denominator methods. The first two are projection methods (DHIS2 estimate and UN estimate), and the additional two are facility data- based methods ( ANC1-derived and penta1-derived denominators).\nNote:\n\nFor the sub-national level, no UN projections are available, so we will use 3 methods only.\n\nThe maternal and newborn health denominators are closely related and can be computed from each other by making assumptions.\nStarting with pregnancies, the number of live births is closely associated with the number of pregnancies, which are usually identified within the health system at the first antenatal visit which in most countries is around 4-5 months of pregnancy (according to the surveys). Country specific values are preferred where available and can be obtained from the WHO website. The default assumptions are as follows:\n\nPregnancy loss between 4 and 7 months (28 weeks of pregnancy): 3%.\nStillbirths or pregnancy loss between 28 weeks and birth: 2%.\nTwinning rate: 1.5%. These first three steps give the number of live births computed from pregnancies.\nNeonatal mortality: 3% (or 30 per 1,000 live births).\nPost neonatal mortality (between 1-11 months): 2.4% (or 24 per 1,000 live births).\n\nThe selection of the best performing denominator method is based on a comparison of the performance of the DHIS2 projection and facility-data derived methods for two indicators: institutional live births and penta3. The gold standard is the population coverage rates from a recent survey, for a year as close as possible. The absolute difference between survey and facility-based coverage at national and sub-national levels is used to select the best performing indicator. (This can also be expressed as the number of standard errors from the survey value but this requires including the standard errors from the surveys - the results will be the same).\n\n\n7.1.3 Facility data derived denominators\nThe basic idea is that if the coverage of an indicator is high (e.g., over 90%), then the number of events reported by health facilities has to be close to the target population. In other words, the denominators or target population can be derived from the numbers in DHIS2. The best candidate indicators for this approach are ANC1 and DPT/penta1 (BCG also possible in some countries if re-vaccinations are recorded separately).\nThis approach requires the following:\nA recent population-based survey is used to obtain an estimate of population level coverage of ANC1 or penta1. For example, ANC1 coverage is 95% of pregnant women.\nThe DHIS2 data on the number of ANC1 and penta1 visits need to be considered complete and accurate (after adjustments / cleaning the data). For example, 100,000 ANC1 visits were reported.\nIf this is the case, then we only need to add the percentage that has not used the services (according to the survey results) to get the target population. For example, if ANC1 coverage from survey is 95% and the number of ANC1 visits from DHIS2 for the year is 100,000, the total number of pregnant women is: \\[ 100,000 / 0.95 = 105,263 \\]\nThe same approach can be used for DPT1 or penta1. The survey coverage is the percent of children 12-23 months who received DPT1/penta1, the facility data are the number of infants who received DPT1/penta1 vaccination. For example, if survey coverage is 92%, and there were 100,000 vaccinations given, then the \\[ \\text{Denominator}= 100,000 / 0.92 = 108,696. \\]\nThe number of live births can be obtained from ANC1 and DPT1 by making assumptions about pregnancy loss (abortion after the first ANC visit, stillbirths), twinning rates, and neonatal mortality. These steps are shown in the Figure below. ![] (images/1-dqa_denom_adjustment.png)\nAn example of ANC1:\n\nAbove we computed 105,263 pregnant women in the population\nat 3% abortion, this implies 105,263 * (1-.0.03) = 102,454 deliveries\nat 1.5% twinning rate this implies 102,454 / (1-(0.015/2)) = 103,229 births\nat 2% stillbirth rate this implies 103,229 * (1-0.02) = 101,164 live births\nat 3% neonatal mortality this implies 101,164 * (1-0.03) = 98,129 children eligible for DPT1/penta1.",
+    "crumbs": [
+      "Avaliação da Qualidade dos Dados",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Denominator Assessment and selection</span>"
+    ]
+  },
+  {
+    "objectID": "pages/denominator-assessment.pt.html#implementation-in-the-shiny-app",
+    "href": "pages/denominator-assessment.pt.html#implementation-in-the-shiny-app",
+    "title": "7  Denominator Assessment and selection",
+    "section": "7.2 Implementation in the Shiny App",
+    "text": "7.2 Implementation in the Shiny App\nShiny App\nTo get outputs for this analysis first, one need to set up their analysis by inputting key information at the Analysis Set up section in the Shiny App.\n\n7.2.1 Analysis set up\nThe parameters required are as shown in the figure below and they are:\n\nNational mortality rates - based on the most recent survey\n\n\n\n\n\n\n\n\n\n\n\nANC1 Survey(%) - Percentage of women aged 15–49 with a live birth who received at least one antenatal care (ANC) visit during their last pregnancy. (Example: If 940 out of 1,000 women had at least one ANC visit, the ANC1 coverage is 94%.)\nPregnancy Loss (proportion) - Proportion of pregnancies that ended in miscarriage, abortion, or stillbirth out of all reported pregnancy outcomes. (Example: If 80 of 1,000 pregnancies ended in loss, the proportion is 0.08)\nTwin Births (proportion) - Proportion of live births that are twins out of all live births. (Example: If 30 out of 1,500 live births were twins (i.e., 15 twin pairs), the proportion is 0.02)\nNeonatal Mortality (proportion) - Proportion of live births that die within the first 28 days of life out of all live births. (Example: If 20 out of 1,000 live births died within the first 28 days, the proportion is 0.02)\nPost Neonatal Mortality (proportion) - Proportion of live births that die between 28 days and 11 months of life out of all live births. (Example: If 15 out of 1,000 live births died between 28 days and 11 months, the proportion is 0.015)\nStillbirth Rate (proportion) - Proportion of pregnancies that ended in stillbirth out of all reported pregnancy outcomes. (Example: If 10 out of 1,000 pregnancies ended in stillbirth, the proportion is 0.01)\nPenta 1 Survey (%) - Percentage of infants aged 12–23 months who received the first dose of pentavalent vaccine.(Example: If 920 out of 1,000 infants received the first dose, the Penta 1 coverage is 92%.)\nSurvey coverage based percentages (based on the most recent survey)\n\n\n\n\n\n\n\n\n\n\n\nANC4 -Percentage of women aged 15–49 with a live birth who received four or more antenatal care visits during their last pregnancy. (Example: If 680 out of 1,000 women had ≥4 ANC visits, ANC4 coverage is 68%.)\nInstitutional delivery - Percentage of live births that occurred in a health facility. (Example: If 850 out of 1,000 live births were in a health facility, the institutional delivery coverage is 85%.)\nLowbirth weight - Percentage of live births that were low birth weight (less than 2,500 grams). (Example: If 100 out of 1,000 live births were low birth weight, the low birth weight coverage is 10%.)\nCaesarean section - Percentage of live births that were delivered by caesarean section. (Example: If 150 out of 1,000 live births were by C-section, the C-section coverage is 15%.)\nPenta 3 - Percentage of infants aged 12–23 months who received the third dose of pentavalent vaccine. (Example: If 850 out of 1,000 infants received the third dose, the Penta 3 coverage is 85%.)\nMeasles1 - Percentage of infants aged 12–23 months who received the first dose of measles vaccine. (Example: If 900 out of 1,000 infants received the first dose, the Measles1 coverage is 90%.)\nBCG - Percentage of infants aged 12–23 months who received the Bacillus Calmette-Guérin (BCG) vaccine. (Example: If 950 out of 1,000 infants received the BCG vaccine, the BCG coverage is 95%.)\nVaccines survey year - The calendar year in which the survey was conducted and from which vaccine coverage estimates (e.g., BCG, Penta1/3, Measles1) are drawn. (Example: If the survey was conducted in 2022, that is the vaccine survey year).\nSurvey data start year - The calendar year from which the survey data starts. This is used to determine the time period for which the survey data is relevant. Ideally, it is recommended to use the two most recent surveys for this analysis.(Example: If a country has survey data for 2008, 2013, 2018 and 2023; the Survey data start should be 2018 (two most recent)).\nSurvey datasets\nIn addition to setting these parameters, you will be required to upload the following survey datasets (in addition to the health facility data loaded at the beginning of the analysis session).\n\n\n\n\n\n\n\n\n\n\nUN Estimates data\nUN Mortality data\nWUENIC estimates data\nSurvey data (uploaded as a folder)\n\n\n\n\n7.2.2 Denominator assessment\nThe first part is to assess the accuracy and consistency of the projected population numbers in the DHIS-2 by comparing them to external sources.\nInterpretation:\nThe interpretation should focus on the extent to which the DHIS2 projections are considered robust which is the case when:\n\nThe DHIS2 total population projection is consistent over time with regular population growth\nThe DHIS2 total live birth projection is consistent over time (regular trend)\nThe projected numbers of total population and live births are close to the UN population projection\nThe DHIS2 population projections are consistent with UN estimates for crude birth rate and crude death rate.\n\nThe second part is to compare results from the different methods - both at the national and sub-national levels.\n\n\n\n\n\n\n\n\n\nInterpretation:\nThe interpretation should focus on the extent to which the DHIS2 projections are considered robust which is the case when:\n\nThe DHIS2 total population projection is consistent over time with regular population growth\nThe DHIS2 total live birth projection is consistent over time (regular trend)\nThe projected numbers of total population and live births are close to the UN population projection\nThe DHIS2 population projections are consistent with UN estimates for crude birth rate and crude death rate.\n\nThe second part is to compare results from the different methods - both at the national and sub-national levels\n\n\n7.2.3 Denominator selection\nThe final step is to select the best performing denominator for the coverage analyses with health facility data. The results on the national gap and the median sub-national gap should be taken into account to make that choice.\n\n\n\n\n\n\n\n\n\nThe best methods have the smallest gaps with the survey results.\nNote\n\nIdeally, one method is selected but it is also possible to select one denominator method for the MNH coverage indicators (ANC, delivery, PNC) and another method for the immunization coverage analyses (see highlighted section in the graph above). It will be important to clearly state the chosen denominator. Please ensure this information is saved within your cached .RDS file.\nThe selected denominators (for both maternal and immunization indicators) will be used in the subsequent analysis. The highlighted tabs are the only places you can change your chosen denominator(s)\n\nInterpretation:\nThe interpretation should describe, based on the graphs:\n\nWhich denominator methods performed best at the national level for the two indicators?\nWhich denominator performed best at the sub-national level for the two indicators?\nWhat selection is made for the indicators in the coverage analyses?",
+    "crumbs": [
+      "Avaliação da Qualidade dos Dados",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Denominator Assessment and selection</span>"
+    ]
+  },
+  {
+    "objectID": "pages/national-coverage.pt.html",
+    "href": "pages/national-coverage.pt.html",
+    "title": "8  National coverage of interventions",
+    "section": "",
+    "text": "8.1 Rationale, Approach and implementation\nRationale: Scientific basis for the analysis\nCoverage of interventions is a critical and direct output of health systems. Regular tracking of coverage at national and subnational levels has become the mainstay of monitoring progress in national health plans and international initiatives. Reproductive, maternal, newborn, child and adolescent health indicators with targets are the most common indicators of national health plans and global monitoring. Both health facility data and household surveys can provide coverage statistics, and an integrated analytical approach is desirable.\nApproach: Description of analytical steps\nMany coverage indicators can be estimated in both surveys and from health facility data. Both are critical pieces of information and need to be considered in conjunction with each other. The Table below lists the indicators, for antenatal and delivery care and child immunization, considered in the health facility data analysis in the workshop, including the variable names (in R) in the first column.\nThe facility data can be used to generate annual coverage estimates, and the coverage results should be compared and interpreted alongside the results from recent surveys. The analysis results will include both coverage estimates.\nImplementation: Conducting analysis in the Shiny App",
+    "crumbs": [
+      "Análises Nacionais",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>National coverage of interventions</span>"
+    ]
+  },
+  {
+    "objectID": "pages/national-coverage.pt.html#rationale-approach-and-implementation",
+    "href": "pages/national-coverage.pt.html#rationale-approach-and-implementation",
+    "title": "8  National coverage of interventions",
+    "section": "",
+    "text": "Name (in R)\nIndicator title\nSurvey denominator\nFacility data denominator\n\n\n\n\nAntenatal care\n\n\n\n\n\nanc1\nAntenatal care at least one or more visits among all pregnant women (%)\nWomen aged 15-49 years with a live birth in the last 2 years\nEstimated livebirths as denominator\n\n\nanc_1 trimester\nAntenatal care 1+ visits in 1st trimester of pregnancy among all pregnant women (%)\n\n\n\n\nanc4\nAntenatal care 4+ visits among all pregnant women (%)\n\n\n\n\nipt2\nipt3\nIntermittent preventive therapy for malaria - 2nd dose / 3rd dose during pregnancy among all pregnant women (%)\n\n\n\n\nifa90\nIron folic acid supplementation given (90 days supply) during pregnancy among all pregnant women (%)\n\n\n\n\nhiv_test\nHIV test conducted among pregnant women (%)\nNot available (in some survey reports)\n\n\n\nsyph ilis_test\nSyphilis test conducted among pregnant women (%)\n\n\n\n\nDelivery care\n\n\n\n\n\ninstd eliveries\nInstitutional live births among all live births\nLive births in the last 2 years\nEstimated livebirths as denominator.\n\n\nsba\nSkilled birth attendance\n\n\n\n\nlow_bweight\nLow birth weight (below 2500 grams) among all live births\n\n\n\n\nc-section\nC-section among all live births\n\n\n\n\npnc48h\nPostnatal care within 48 hours\n\n\n\n\nImmunization\n\n\n\n\n\nbcg\nBCG vaccination to infants\nChildren 12-23 months\nN of surviving infants (beyond neonatal period)\n\n\npenta1\nPenta vaccine - 1st dose to infants\nChildren 12-23 months\n\n\n\npenta3\nPenta vaccine - 3rd dose to infants\nChildren 12-23 months\n\n\n\nmeasles1\nMeasles vaccine - 1st dose (to infants)\nChildren 12-23 months\nN of surviving infants (beyond post-NN period)\n\n\nmeasles2\nMeasles vaccine - 1st dose (older children)\nChildren 24-35 months\nN of surviving infants (beyond postneonatal period) (or age 1)\n\n\n\n\n\n\n8.1.1 Antenatal care (ANC)\nMost countries have at least one ANC indicator with a target in the national plan. The global ENAP/EPMM coverage targets for 2025 are: globally, at least 90% of pregnant women with 4 or more ANC care visits, and 90% of countries with at least 70% coverage. There are several ANC indicators that capture:\n\ncontact with health services during pregnancy (ANC 1st visit, ANC 4 or more visits, ANC first visit in first trimester). ANC1 is often considered an indicator of basic access to health services. It is high in most countries, and in many instances, the numbers of ANC1 visits in the routine health facility data can provide a better denominator for the ANC and delivery indicators than population projections (see section 2 on denominators).\ncontents of services provided (intermittent preventive therapy (IPT2 or IPT3) against malaria, HIV testing, syphilis testing and iron-folic acid (IFA) supplementation (at least 90 tablets given to the pregnant woman)). Some countries will not have policies for all of these diagnostic or therapeutic interventions during pregnancy (e.g., no IPT if no malaria risk).\n\nFor most indicators, the surveys also provide coverage estimates for the national level, with 95% confidence intervals. For most coverage indicators the data refer to a period before the survey: e.g., institutional birth coverage for the live births in the two years preceding the survey. This means that the midpoint of the coverage estimate lies one year before the survey.\nAn example of two graphs for ANC, based on facility and survey data, is shown below, showing both good concordance between the facility-based and survey results for coverage of ANC first visit in the first trimester and poor concordance in case of ANC4 visits. In the latter case, it is evident that ANC4 is overreported in the facility data as coverage is much higher than the survey and unlikely to be high (over 90% during 2021-23 and even 101% in 2023). Poor recording and reporting of ANC 4th visits in the DHIS2 data is likely the main cause.\nSometimes, an indicator may reach an unlikely high coverage at the national level, say over 125%. This may be because the data quality of the numerator of the coverage indicator is poor, the denominator is wrong, or the intervention is given and recorded more than once during pregnancy. An example is IFA supplementation. In that case, the computation of coverage is not useful. It is better to express it differently. For instance, if coverage is 200%, it is better to compute the average number of courses of 90 IFA tablets that a pregnant woman received (in this case 2.0 per pregnant woman in the population).1\n\n\n\n\n\n\n\n\n\nSubnational Coverage Inequality for ANC4\n\n\n\n\n\n\n8.1.2 Delivery care\nAll countries have at least one delivery care indicator with a target in the national plan. The global ENAP/EPMM coverage target for 2025 is at least 90% global average coverage, and 90% of countries at least 80% coverage of skilled birth attendance (SBA). For postnatal care (PNC) within 2 days the global coverage target is 80% and the 90% of countries with at least 60% coverage.\nInstitutional (live) birth coverage and SBA are closely related, as almost all deliveries with a skilled attendant occur in health facilities. From the analytical point of view, institutional birth coverage is preferred because it is a more objective measure and avoids issues with the definition of what constitutes skilled birth. SBA is often preferred from the health care perspective, as it includes an element of quality: obviously, an institutional delivery without skilled attendance is not desirable, and in some countries home SBA may be part of the health care delivery strategy. attendance. Either indicator works well to capture delivery care.\nCaesarean section is a live saving intervention and an important indicator. A general rule of thumb is, put forward by WHO, that in a population the need for Caesarean section is in the range of 10-15% of all deliveries. If the Caesarean section rate is below 10%, that means that there is unmet need. If the Caesarean section rate is over 10-15%, that implies that there most likely overuse of Caesarean section. It may however also imply that there is still unmet need among certain population groups (e.g. the poorest women or rural women) in combination with overuse in other subgroups of the population (such as urban and richer women).\nPostnatal care (PNC) within 48 hours is provided to the mother/women and newborn. Country systems may have different ways of recording the type of PNC and also surveys are known to have data issues with PNC for the mother or the baby.2 Some countries use multiple definitions of timing of the PNC visit (e.g., within the first week).\nLow birthweight is a critical indicator of neonatal health. It is most meaningful if the distinction between prematurity and small-for-gestational age is made, but most facility reporting systems and most surveys do not have such data. All babies are supposed to have been weighed right after birth and the percent of newborns weighing less than 2500 grams is usually reported in the DHIS2 system. As general guidance for the interpretation of the data, low birthweight prevalence in sub-Saharan Africa was estimated at 13.9% (95% credibility interval: 12.4-15.7%) for 2020.3\n\n\n8.1.3 Immunization\nImmunization coverage indicators are included in virtually every country’s health sector monitoring plan. A general target is at least 90% coverage for essential vaccines given in childhood and adolescence.\nFor the national coverage analyses, the focus is on BCG, first and third doses of penta/DTP (penta1 or DTP1 and penta3 or DTP3), and first and second doses of measles vaccine, often given in combination with rubella vaccine. BCG and penta/DTP vaccinations are recommended to be given at birth (BCG), 6 weeks (penta1) and 14 weeks (penta3). For facility data, the number of vaccinations given to infants is used and the denominator is the number of eligible children in the population, which is approximated as live births minus neonatal deaths. Survey data generally provide vaccination coverage among children 12-23 months (may also include the age at which the vaccination was given - mostly before the first birthday).4\nThe first dose of measles vaccine is generally recommended at age 9 months. For the facility data, the recording and reporting usually separate measles given to children under 1 year and children 1 year and older, though the quality of recording and reporting for the age group may vary (there may be a tendency to record measles vaccinations after 12 months as given to infants). Here, we use children who have survived the first year of life (live births minus neonatal deaths minus postneonatal deaths) as the denominator for measuring vaccination coverage. The second dose of measles uses children aged 24-35 months as denominator. This can be estimated as live births minus neonatal deaths = 2* postneonatal deaths).\nWHO and UNICEF work with countries to produce annual estimates of immunization coverage based on all data sources. The national estimates, called WUENIC, are published and available for 2020-2024. These time trends are included in the analysis outputs, to compare the 2019-2024 annual estimates of the facility data produced in the workshop and the survey results.\n\n\n8.1.4 Family planning\nThe family planning coverage estimates are derived from a collaboration of the Countdown with Track20. Track20 has developed an advanced estimation tool called Family Planning Estimation Tool (FPET) which focuses on three indicators: modern contraceptive use, unmet need for modern contraceptives and demand satisfied with modern methods. The three indicators are closely related since demand is satisfied (this is the true coverage indicator) = use of modern contraceptives / (unmet need + use of modern contraceptives).\nFPET uses statistical modelling that incorporates all available data from surveys and may also use estimates obtained from facility data if the quality is sufficient.5 FPET allows for various types of survey data to be integrated into the estimates and fits a line that pulls from the trends. This utilizes the strength of multiple data points and minimizes the risk of comparing different surveys.\n\n\n\n\n\n\n\n\n\nFP among currently married women 15-49 years",
+    "crumbs": [
+      "Análises Nacionais",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>National coverage of interventions</span>"
+    ]
+  },
+  {
+    "objectID": "pages/national-coverage.pt.html#footnotes",
+    "href": "pages/national-coverage.pt.html#footnotes",
+    "title": "8  National coverage of interventions",
+    "section": "",
+    "text": "Surveys can provide coverage of IFA supplementation, as here the unit of data analysis is individual pregnant women.↩︎\nAmouzou A, Hazel E, Vaz L, Sanni Y, Moran A. Discordance in postnatal care between mothers and newborns: Measurement artifact or missed opportunity? J Glob Health. 2020 Jun;10(1):010505.↩︎\nOkwaraji YB, et al. National, regional, and global estimates of low birthweight in 2020, with trends from 2000: a systematic analysis. Lancet. 2024 Mar 16;403(10431):1071-1080.↩︎\nTherefore, the survey data on immunization roughly refer to the program performance in the year before the survey↩︎\nhttps://www.track20.org/pages/data_analysis/publications/methodological/family_planning_estimation_tool.php↩︎",
+    "crumbs": [
+      "Análises Nacionais",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>National coverage of interventions</span>"
+    ]
+  },
+  {
+    "objectID": "pages/national-inequality.pt.html",
+    "href": "pages/national-inequality.pt.html",
+    "title": "9  National Inequality",
+    "section": "",
+    "text": "9.1 Rationale, Approach and implementation\nRationale: Scientific basis for the analysis\nHousehold surveys provide critical information on inequalities. Our focus is on three major dimensions of inequality: area of residence, wealth and education.\nFor area of residence, we focus on urban/rural areas, for wealth, we use household wealth quintiles and for education we focus on education of the mother. Equiplots are used to assess whether the country has made progress since 2010 in reducing the poor rich gap or the gap between women with no education or low education and women with higher education.\nFor wealth quintiles, it can be assessed what the type of inequality is, as all categories are of the same size:",
+    "crumbs": [
+      "Análises Nacionais",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>National Inequality</span>"
+    ]
+  },
+  {
+    "objectID": "pages/national-inequality.pt.html#rationale-approach-and-implementation",
+    "href": "pages/national-inequality.pt.html#rationale-approach-and-implementation",
+    "title": "9  National Inequality",
+    "section": "",
+    "text": "If the richest are well ahead of all other wealth quintiles, this is top inequality and is sometimes also referred to as mass deprivation (only the rich escape)\nIf the coverage differences are equidistant, this is a linear pattern where the increasing household wealth is linearly associated with higher coverage\nIf the poorest are left behind, this is called bottom inequality, and means marginalization of the poorest. Each pattern requires a different strategy of health programming and targeting.",
+    "crumbs": [
+      "Análises Nacionais",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>National Inequality</span>"
+    ]
+  },
+  {
+    "objectID": "pages/national-inequality.pt.html#interpretation-of-equiplots",
+    "href": "pages/national-inequality.pt.html#interpretation-of-equiplots",
+    "title": "9  National Inequality",
+    "section": "9.2 Interpretation of equiplots",
+    "text": "9.2 Interpretation of equiplots\nThe interpretation should focus on whether inequalities have reduced over time and to what extent global targets for coverage have been met. Consider your audience/s and what key messages and insights you want to get across.\nThe following questions should guide and be answered by the interpretation:\n\nWhat is the level of inequality in the most recent data point?\nHow have inequalities changed over time?\nIs there any inequality pattern that can be observed?\nWhat will be the best approaches to reduce inequalities?\n\nImplementation: Conducting analysis in the Shiny App\nThis will be analysed within the National analyses -&gt;Equity Assessment section in the Shiny App\nYou expect to see output as below\n\n\n\n\n\n\n\n\n\nPenta3 coverage Inequality by Wealth, Area and Maternal education",
+    "crumbs": [
+      "Análises Nacionais",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>National Inequality</span>"
+    ]
+  },
+  {
+    "objectID": "pages/national-global-coverage.pt.html",
+    "href": "pages/national-global-coverage.pt.html",
+    "title": "10  Global Coverage Targets",
+    "section": "",
+    "text": "10.1 Global coverage targets for coverage of health services",
+    "crumbs": [
+      "Análises Nacionais",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Global Coverage Targets</span>"
+    ]
+  },
+  {
+    "objectID": "pages/national-subnational-mapping.pt.html",
+    "href": "pages/national-subnational-mapping.pt.html",
+    "title": "11  Sub-national Mapping",
+    "section": "",
+    "text": "11.1 National and subnational mapping of health service coverage",
+    "crumbs": [
+      "Análises Nacionais",
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Sub-national Mapping</span>"
+    ]
+  },
+  {
+    "objectID": "pages/national-equity-assessment.pt.html",
+    "href": "pages/national-equity-assessment.pt.html",
+    "title": "12  National Equity Assessment",
+    "section": "",
+    "text": "13 National Equity Assessment",
+    "crumbs": [
+      "Análises Nacionais",
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>National Equity Assessment</span>"
+    ]
+  },
+  {
+    "objectID": "pages/subnational-coverage.pt.html",
+    "href": "pages/subnational-coverage.pt.html",
+    "title": "13  Coverage",
+    "section": "",
+    "text": "14 Sub-national Coverage",
+    "crumbs": [
+      "Análises Subnacionais",
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Coverage</span>"
+    ]
+  },
+  {
+    "objectID": "pages/subnational-coverage.pt.html#rationale-approach-and-implementation",
+    "href": "pages/subnational-coverage.pt.html#rationale-approach-and-implementation",
+    "title": "13  Coverage",
+    "section": "14.1 Rationale, Approach and implementation",
+    "text": "14.1 Rationale, Approach and implementation\nRationale: Scientific basis for the analysis\nSub-national analysis of health intervention coverage is essential for advancing universal health coverage (UHC), which aims to ensure equitable access to quality health services for all populations. National averages often mask critical disparities that exist across regions, districts, or population subgroups.\nMonitoring sub-national data helps identify geographical areas where coverage is low, signaling potential inequities in health service access and prompting targeted interventions. This is particularly important for drawing attention to populations who are left behind and ensuring resources are directed where they are most needed.\nApproach: Description of analytical steps\nThe focus here is to assess the coverage estimates (e.g., ANC4, institutional deliveries, Penta3) at Admin1 and Admin2 levels using the best performing denominator for the coverage computations, as decided from the analysis in section 2 on denominators.\nThere will be more “noise” in the sub-national data with improbably high or low coverage rates, compared to the national analyses, and more so in the district analyses than in the regional (admin1) analyses. This is because district analyses are affected by small numbers (more fluctuations which may be random or due to data quality issues) and by the health service utilization patterns by women and children. For instance, a municipal district may get more deliveries than an adjacent rural district because of the location of the hospitals in the municipal district.\nImplementation: Conducting analysis in the Shiny App\nNavigate to the Subnational Analysis tab -&gt;Subnational Coverage and select the admin level of interest (Region (Admin Level1) or District. Then select the indicator of interest from the key indicators (ANC4, Institutional deliveries, Low Birth Weight, Penta 1 and Measles 1. You can also use the Custom Check tab to select any other indicator of interest.\n\n\n\n\n\n\n\n\n\nSubnational coverage",
+    "crumbs": [
+      "Análises Subnacionais",
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Coverage</span>"
+    ]
+  },
+  {
+    "objectID": "pages/subnational-coverage.pt.html#sub-national-statistical-summaries-one-pager",
+    "href": "pages/subnational-coverage.pt.html#sub-national-statistical-summaries-one-pager",
+    "title": "13  Coverage",
+    "section": "14.2 Sub-national statistical summaries (One pager)",
+    "text": "14.2 Sub-national statistical summaries (One pager)\nThe aim is to produce a one-pager for each admin1 unit (generally region, province or county) that contains the regional information as well as a summary of the districts within the region. We refer to this as the regional sub-national statistical summary.\nThe following components are included:\n\nSummary of key demographic information for the region and the districts: table with expected number of births in 2024 according to the DHIS2 projections and according to the preferred denominators derived from the health facility data (based on ANC1 for live births, and on penta1 for immunization indicators).\nLine graphs with the trend in coverage of institutional deliveries and penta3 vaccination that include the best estimates for 2020-2024 based on the health facility data, as well as the estimates from the most recent surveys (from 2015) for the same indicators (with confidence intervals if possible).\nBar graphs that compare the 2024 coverage situation in the region compared to all other regions, and puts the region into the lowest, middle or upper third of regions in terms of coverage. This is done for both institutional deliveries and penta3 vaccination.\nTable that summarizes the coverage for institutional deliveries and penta3 vaccination in 2024 by district.\nOther indicators can be used as prioritized by the country (e.g., ANC4, measles1).\n\n\n\n\n\n\n\n\n\n\nPercentage of districts in Alaotra Mangoro\n\n\n\n\nTo summarize the coverage situation according to the health facility statistics for 2024 can be done for the regional level and shown on a map. A composite coverage index is computed as an average in seven mother and child health indicators: ANC4, institutional live birth coverage, SBA, IPT2, postnatal care, pentavalent vaccine 3rd dosage and measles 1 vaccination coverage. Equal weight is given to all indicators.",
+    "crumbs": [
+      "Análises Subnacionais",
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Coverage</span>"
+    ]
+  },
+  {
+    "objectID": "pages/subnational-inequality.pt.html",
+    "href": "pages/subnational-inequality.pt.html",
+    "title": "14  Inequality",
+    "section": "",
+    "text": "14.1 Sub-national Inequality",
+    "crumbs": [
+      "Análises Subnacionais",
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Inequality</span>"
+    ]
+  },
+  {
+    "objectID": "pages/subnational-inequality.pt.html#sec-subnat-inequality",
+    "href": "pages/subnational-inequality.pt.html#sec-subnat-inequality",
+    "title": "14  Inequality",
+    "section": "",
+    "text": "14.1.1 Rationale, Approach and implementation\nRationale: Scientific basis for the analysis\nReducing geographic inequality is essential for equitable health systems and achieving the SDGs. Subnational inequalities reveal inconsistencies in service delivery and highlight systemic barriers to healthcare access. Tracking inequality indicators helps assess whether health systems are becoming more equitable and whether targeted interventions are working.\nApproach: Description of analytical steps\nHere we calculate Median Absolute Deviation from the Median (MADM) to quantify spread in coverage in districts within an admin1 level , compared with the coverage at the said Admin1 subnational unit.\nThe key statistical measures for sub-national inequalities are:\n\nMADM: median absolute distance from the median. This measure gives an indication on whether the country has been successful in reducing inequalities between sub-national units.\nPercent of sub-national units with coverage above a specific target or threshold: this indicator provides information on the extent to which a country has been successful in reaching universal coverage at the sub-national level.\n\nSummary of district and regional performance\nProgress towards international and national targets can be measured by computing the percentage of regions and districts that have achieved these targets. The goal is for all regions and districts to have met the target. Higher percentages mean less inequality.\nImplementation: Conducting analysis in the Shiny App\nNavigate to the Subnational Analysis tab =&gt;Subnational Inequality and inspect the plotted regional and district results by year, with the median absolute distance from the median (MADM, see screenshot below), as the summary measure to assess if inequalities have reduced.\n\n\n\n\n\n\n\n\n\nSubnational Coverage Inequality for ANC4",
+    "crumbs": [
+      "Análises Subnacionais",
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Inequality</span>"
+    ]
+  },
+  {
+    "objectID": "pages/subnational-global-coverage.pt.html",
+    "href": "pages/subnational-global-coverage.pt.html",
+    "title": "15  Subnational: Global coverage targets",
+    "section": "",
+    "text": "16 Subnational Global coverage targets",
+    "crumbs": [
+      "Análises Subnacionais",
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Subnational: Global coverage targets</span>"
+    ]
+  },
+  {
+    "objectID": "pages/maternal-mortality.pt.html",
+    "href": "pages/maternal-mortality.pt.html",
+    "title": "16  Maternal Mortality",
+    "section": "",
+    "text": "16.1 Maternal Mortality",
+    "crumbs": [
+      "Mortalidade",
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Maternal Mortality</span>"
+    ]
+  },
+  {
+    "objectID": "pages/maternal-mortality.pt.html#maternal-mortality",
+    "href": "pages/maternal-mortality.pt.html#maternal-mortality",
+    "title": "16  Maternal Mortality",
+    "section": "",
+    "text": "16.1.1 Rationale, Approach and implementation\nRationale: Scientific basis for the analysis\nMaternal and perinatal mortality in health facilities are critical indicators of the quality of care (institutional mortality). Institutional maternal mortality is one of the key indicators proposed to monitor progress. Facility-based mortality statistics can also be a critical input into the estimation of population levels of mortality.\nReporting of maternal deaths, stillbirths, and early neonatal deaths (before discharge) may occur through the routine reporting system (DHIS2, aggregate or individual level) or be part of a maternal and perinatal death surveillance and response system (MPDSR).\nPopulation mortality statistics (maternal mortality ratio, stillbirth rates, neonatal mortality rates) rely on household surveys and censuses, with major limitations, especially for maternal mortality and stillbirths. A promising development is the major increase in health facility deliveries observed in many countries.\nEspecially if coverage of births in health facilities is high (e.g., over 75%), the facility-based statistics will become a useful input into the estimation of population levels of mortality. The main challenge with mortality data from health facilities is under-reporting of deaths. Maternal deaths do not only occur during birth, but also in pregnancy and post-partum.\nReporting of stillbirth deaths requires well maintained maternity registers, but also cross-checks to the operation theatre registers for cases of Caesarean section. If that is not the case, deaths may not be recorded in the maternity register, and not reported into the national system. In addition, maternal deaths occurring in other hospital wards are more likely to be missed, such as deaths associated with abortion, or post-discharge due to sepsis and other causes. Neonatal deaths after discharge, which is often within 24 hours, are also more likely to be missed.\nA critical step is a systematic assessment of data quality issues, which forms the basis for, if possible, adjustments, and more importantly should guide efforts to improve reporting quality.\nApproach: Description of analytical steps\nThe definitions for institutional, community and population maternal mortality and for stillbirths are:\n\n\n\n\n\n\n\n\nIndicator\nNumerator\nDenominator\n\n\n\n\nInstitutional maternal mortality ratio (iMMR)\nNumber of maternal deaths in health facilities1\nNumber of live births in health facilities * 100,000\n\n\nPopulation maternal mortality (MMR)\nNumber of maternal deaths in the population\nNumber of live births in the population * 100,000\n\n\nCommunity maternal mortality ratio (comer)\nNumber of maternal deaths in the community\nNumber of live births in the community * 100,000\n\n\nInstitutional stillbirth rate (iSBR)\nNumber of stillbirths in health facilities2\nNumber of births in health facilities * 1,000\n\n\nPopulation stillbirth rate (SBR)\nNumber of stillbirths in the population\nNumber of births in the population * 1,000\n\n\nCommunity stillbirth rate (cSBR)\nNumber of stillbirths in the community\nNumber of births in the community * 1,000\n\n\nNeonatal mortality (before discharge)\nNumber of neonatal deaths before discharge\nNumber of live births in health facilities * 1000\n\n\n\n\n\n16.1.2 Data Analysis Components:\nData analysis has the following components:\n\n16.1.2.1 iMMR and iSBR review\nThe annual mortality rates are computed using the unadjusted data on reported deaths and births/live births in health facilities. We do not adjust for reporting rates and outliers (as is done for other interventions) because it is difficult to adjust maternal deaths and stillbirths, where the number of deaths is small and fluctuating.3 It is however advisable to check the data for any extreme outliers in the annual data (e.g., numbers of deaths that clearly indicate data entry errors) and replace these with the average of the surrounding years.\nThe figure below displays the institutional maternal mortality per 100,000 live births for regions (dots) and for the country as a whole (line and annual values) by year.\n\n\n\n\n\n\n\nInstitutional maternal mortality ratio per 100,000 live births, by region (dots) and national (line), 2019-2024\n\n\nSeveral considerations need to be made:\n\nAre there any extreme outliers on the high side which may be due to major data errors which need correction?\nHow many regions have implausibly low iMMR which is arbitrarily defined as less than 25 per 100,000 live births (25 is two times the MMR in high-income countries of 12.5); are these more advanced regions where mortality is expected to be lower, or are there less-developed regions with low mortality, which could be an indication of major underreporting of deaths.\nA map with the iMMR by region/province would be a useful addition to guide the interpretation of the data, especially focusing on potential data quality issues.\n\nThe figure below presents the stillbirth rate per 1,000 births for regions and the country, using the same format as for maternal mortality. The interpretation should explain:\n\nHow many regions have implausibly low iSBR which is defined as less than 6 per 1,000 births (which is two times the SBR in high income countries)?\nAre these more advanced regions where mortality is expected to be lower, or is this a sign of major under-reporting of deaths in less-developed regions of the country.\n\n\n\nInstitutional stillbirth rate per 1,000 births, by region (dots) and national (line), 2019-2024\n\n\n\nIn addition, the institutional mortality levels can be compared to the most recent mortality estimates for the population. These population estimates could be coming from a recent national survey or census, or we can use the UN estimates for maternal mortality (for 2020) and stillbirth rates (for 2021).\nThis is to obtain an idea of the difference between the institutional mortality and the population mortality. Interpretation should seek to explain:\n\nHow far is the iMMR (or iSBR) from the UN estimates of the population mortality, including the uncertainty range of the global estimates: this difference will be used further to assess the data quality.\n\nThe institutional neonatal mortality rates (per 1,000 live births) based on reported neonatal deaths may also be graphed similar to iMMR and iSBR, but have to be interpreted with additional caution. Almost all babies stay at least 24 hours after delivery in the hospital but after that many are discharged and the observation time in health facilities is variable. Therefore, the statistic is mostly referred to as neonatal deaths before discharge per 1,000 live births, which includes day 1, some deaths on day 2, fewer deaths on day 3 etc.\nA rough guide to assess reporting completeness is that expected mortality of neonatal deaths before discharge in health facilities should be at least half of neonatal mortality in the population. So for instance, if population neonatal mortality is 20 per 1,000 live births, we expect institutional neonatal mortality at least 10 per 1,000 live births in the health facilities.\n\n\n\n\n\n\n\nNeonatal mortality before discharge per 1,000 live births in health facilities, based on DHIS2, 2019-2024, national and regions\n\n\n\n\n16.1.2.2 Data Quality metrics\n\nRatio stillbirth to maternal deaths in the health facility data at national level\n\nWe expect maternal mortality and stillbirth to be positively correlated given the commonalities in causes. Based on a review of the global estimates, historical data, and health facility studies, we expect the ratio of stillbirth to maternal death to be in the range of 7 to 30 for countries in sub-Saharan Africa. We compute the ratio as the number of reported stillbirths divided by the number of reported maternal deaths in DHIS2 or MPDSR, in a specific time period (usually a year) and raise a “data quality flag” if the ratio is outside the 7-30 range.\nInterpretation:\n\nIf the ratio is lower than 7: under-reporting of stillbirths is likely greater than under-reporting of maternal deaths\nIf the ratio is equal or greater than 30: under-reporting of maternal deaths is likely to be the main issue, under-reporting of stillbirth less serious than for maternal deaths.\nIf the ratio is between 7 and 30: under-reporting of maternal deaths and under-reporting of stillbirths are both possible, or reporting of both is of good quality (this requires that the level is also in the expected range - component 1).\n\n\n\n\n\n\n\n\nRatio of stillbirths to maternal deaths in health facilities, based on the reported data in DHIS2, 2019-2024, national and regions\n\n\n\nConsistency of institutional MMR with estimated population MMR and community MMR\n\nThe completeness of reporting by health facilities can be estimated by comparing the reported iMMR based on facility data with an expected iMMR. The population MMR, community MMR and institutional MMR should be consistent. There will be variation in the community to institutional MMR between populations, but it is not likely that, for instance, the community MMR is 1,000 when the institutional MMR is 100.\nWe compute an expected MMR in health facilities based on assumptions about:\n\nMMR in the whole population (including community and institutional deaths): For example, the lower bound, median, upper bounds of global estimates for each country (2023 UN estimates) could be used, or the results from a recent survey.\nRatio of community to institutional maternal mortality: We use assumptions ranging from 1.0 (where we assume community MMR is the same as iMMR) to 2.0 and 3.0 (cMMR is 2 or 3 times higher than iMMR).4 For each country, one should consider what this ratio could be which may depend on the proportion of births in health facilities. There is some evidence that the community to institutional ratio increases as institutional birth rates increases, as well as the observed percent of births in health facilities.\n\nThe population MMR is the sum of the institutional and community MMR, weighted by the percent of births occurring in facilities. For instance, if the institutional MMR is 100 and the community MMR is 200, and 75% of births are in health facilities, then the population MMR equals \\[ 0.75 * 100 + 0.25 *200 = 125  per 100,000 \\] live births. This can be expressed in the following formula:\n\\(M_{p} = P_{i}*M_{i} + \\left( 1 - P_{i} \\right)*M_{c}\\)\nWhere;\n\nMp = maternal mortality ratio in the population;\nMi = institutional maternal mortality ratio;\nMc= maternal mortality ratio in the community;\nPi the proportion of live births in institution\n\nHere, we have (1) iMMR from the DHIS2 data and (2) population mortality from the UN estimates, and can compute the community MMR as \\[(125 - 0.75 * 100) / (1-0.25) = 200 \\], or\n\\[ M_{c} =  \\frac{{(M}_{p} - {P_{i}*M}_{i})}{(1 - P_{i})}\\]\nIn the example, the ratio community to institutional mortality \\[(Mc/Mi) \\]equals 200 / 100 = 2, in other words the community mortality is two times higher than the institutional mortality.\nWe can now compute the expected MMR based on 1) an estimate of population MMR 2) the ratio Mc/Mi. For instance, if 75% delivers in health facilities, the population MMR is 200 and the ratio (Mc/Mi) is 2, then the expected institutional MMR is \\[ (200/(2-(2-1)*0.75) = 200 / 1.25 = 160 per 100,000 \\] live births. (and the community MMR is \\[320\\] ).\nIn a formula:5\n\nExpected \\[Mi =Mp / (Mc/Mi -- (Mc/Mi)-1) * Pi))\\]\n\nFinally, the completeness of facility reporting is reported iMMR (e.g. based on DHIS2) divided by the expected iMMR. For instance, if the reported MMR was 100 and the expected MMR 160, then the level of completeness of reporting is \\[100/160 * 100% = 62.5%.\\]\nBelow is an example of the estimated completeness of facility reporting of maternal deaths using different scenarios. The figure shows the results on completeness of reporting with three levels of population MMR (lower bound, median or best estimate, upper bound) and three community to institutional mortality ratios (0.5-2.5), shown on the X-axis.\nNot all scenarios are equally relevant to each country. For instance, if there is evidence that the population MMR is lower than the UN median, pick the scenario with the lowest MMR (the blue line). If it is considered that community MMR could be 1.5-2.0 times higher than institutional MMR, then the completeness estimate is 59-64%. The choices are arbitrary, but it is useful to consider if the range of estimates of completeness of facility reporting can be narrowed down by using the most plausible scenario. As default values, the ratios of 1.0, 2.0 and 3.0 are used.\n\nA similar approach can be used for stillbirths using all births instead of live births. The UN global stillbirth estimates for 2021 with uncertainty ranges can be used (lower and upper bound are 90% uncertainty intervals from the model). There is little research on the community to institutional stillbirth ratio (partly because community level stillbirth reporting is more uncertain) but it is likely that the ratios are lower than for maternal mortality, as institutional mortality levels are much higher for stillbirth rates than for MMR. A range of 0.5-1.5 may be used for the estimation of the level of completeness of facility reporting.",
+    "crumbs": [
+      "Mortalidade",
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Maternal Mortality</span>"
+    ]
+  },
+  {
+    "objectID": "pages/maternal-mortality.pt.html#footnotes",
+    "href": "pages/maternal-mortality.pt.html#footnotes",
+    "title": "16  Maternal Mortality",
+    "section": "",
+    "text": "Maternal death is defined as any cause related to or aggravated by pregnancy or its management (excluding accidental or incidental causes) during pregnancy and childbirth or within 42 days of termination of pregnancy, irrespective of the duration and site of the pregnancy↩︎\nA baby who dies after 28 weeks of pregnancy, but before or during birth, is classified as a stillbirth. Often the distinction is made between ante-partum (macerated) and intrapartum (fresh) stillbirths.↩︎\nIt is however good to inspect the data and consider extreme outliers (more than 3 standard deviations from the annual, or more than 5 times the median absolute deviation – see data quality section.↩︎\nThe assumptions on the range of ratios for community to institutional MMR were selected based on studies that measured both institutional and population mortality estimates (or had information about the percent of all maternal deaths that occurred at health facilities and the percent of deliveries that took place at health facilities.↩︎\nAn important factor affecting MMR estimates from health facilities, especially if the data are gathered through MPDSR, is that many deaths occur outside of the maternity ward (upon re-admission). If the DHIS2 is based on the reporting of all cause-specific deaths in health facilities, and the maternal death is correctly classified, this is not an issue.↩︎",
+    "crumbs": [
+      "Mortalidade",
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Maternal Mortality</span>"
+    ]
+  },
+  {
+    "objectID": "pages/service-utilization.pt.html",
+    "href": "pages/service-utilization.pt.html",
+    "title": "17  Health services utilization",
+    "section": "",
+    "text": "17.1 Curative health services utilization for sick children",
+    "crumbs": [
+      "Utilização dos Serviços",
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Health services utilization</span>"
+    ]
+  },
+  {
+    "objectID": "pages/service-utilization.pt.html#curative-health-services-utilization-for-sick-children",
+    "href": "pages/service-utilization.pt.html#curative-health-services-utilization-for-sick-children",
+    "title": "17  Health services utilization",
+    "section": "",
+    "text": "17.1.1 Rationale, Approach and implementation\nRationale: Scientific basis for the analysis\nThere is only limited information about curative service utilization, even though diarrhoea and pneumonia are leading causes of death in children. Service utilization statistics on care-seeking behaviour among children with recent illnesses (diarrhoea, acute respiratory infection, or fever in the last 2 weeks) is usually obtained from household surveys, relying on mother’s recall.\nHealth facility data on outpatient (OPD) visits is an indicator of access to curative services: less than one visit per person is often considered an indicator of poor access. Similarly, data on hospital admissions is an indicator of access to services, while hospital mortality (case fatality) is an indicator of the quality of care.\nApproach: Description of analytical steps\nThe data on OPD visits should include new and re-visits. Data are usually reported for under-5 years and 5 years and older. As with data on maternal and newborn care and immunization, the data quality is assessed, and adjustments are made for completeness of reporting and extreme outliers are corrected. The adjusted clean data are used for analysis at national and subnational levels.\n\n\n17.1.2 Outpatient service utilization\nThe data on outpatient visits should include both new and re-visits.\nMean number of OPD visits per child per year:\n\nThe numerator is the adjusted number of under-5 OPD visits in a year and the denominator is the total number of children under-5 which is taken from the DHIS2 projections. We do not expect this statistic to change much between years (less than 0.2 visits per child per year). A gradual increase suggests either improvements in access to OPD services or a greater disease burden for children. There is no fixed cut-off, but if the attendance is less than 1 visit per year per child, access to services is likely an issue. The OPD statistics are computed for the national and regional/provincial levels.\nA map with OPD use by region or province can reveal important sub-national differences.\nRegarding the interpretations for OPD:\n\nWhat can be said about the data quality for OPD visits? Is there consistency of reported numbers between years?\nWhat is the number of OPD visits per child per year during 2019-2023, is it increasing?\nIs it lower than 1 visit per year, which is considered indicative of low access?\nWhat can be said about the OPD visits per child per year by region/province in 2023? How large is the difference between top and bottom regions?\n\n\n**Insert pic\nThe percentage commonly lies between 15-45% of all visits that are under-fives. In high fertility countries (e.g., total fertility rate &gt; 4) we expect a higher percentage (e.g., over 30%) than in lower fertility countries. If the percent lies outside this range, there may be a data quality problem. Furthermore, if the percent changes much between years (e.g. more than 5 percentage points) then there may also be a data quality issue.\n**Insert pic\n\n\n17.1.3 Inpatient service utilization\nThe data on hospital admissions (or discharges + deaths) include new and re-admissions. Data are usually reported for under-5 and 5 years and over. Some countries report discharges rather than admissions which would be the preferred data (discharges = admissions – deaths).\nA review of completeness of reporting and the presence of extreme outliers is used to assess data quality. Reporting rates of hospitals (and other facilities with in-patient services) may be more difficult to assess than for other services. Therefore, the decision to adjust for incomplete reporting also depends on the judgement by the country teams regarding the quality of the reporting rate for in-patient services.\nAlso, extreme outliers may be more common for monthly admissions because of poor reporting, and adjustments need to be made cautiously. It is recommended to assess both the unadjusted and adjusted results.\nNumber of admissions per 100 children under-5 per year:\n\nThis is an indicator of access. A low value, e.g., less than 2 admissions per 100 children under-5 per year, is indicative of low access to services. The median for countries in sub-Saharan Africa for 2018-2022 was 4.5 admissions per year. Also here, we do not expect the indicator to change much per year: e.g. a change of 1 or more admissions per 100 children between years is unlikely, unless a specific explanation can be found (such as an epidemic).\nA map with IPD admissions among under-five use by region or province can reveal important sub-national differences.\nRegarding the interpretations for IPD:\n\nIs there consistency of reported numbers of admissions / admission rates over time?\nWhat is the number of admissions per 100 children under 5 per year during 2019-2023?\nTrend - Is it low or high? What can be said about admissions per 100 children under-5 per year by region/province in 2023?\n\n\nCase fatality rate:\nAn indicator of the quality of care, defined as the number of children who die in hospital divided by the total number admitted (discharges + deaths). This should be done using the unadjusted data, as we do not adjust: neither the numbers of deaths nor the number of admissions. The case fatality rate is considered an indicator of the quality of care. The lower the mortality in health facilities, the better the quality of care.\n**insert pic\nPercent of admissions that are children under five:\nan indicator of data quality. The percentage commonly lies between 10-40% of all admissions that are under-fives. If the percentage lies outside this range, there may be a data quality problem or an exceptional situation. Furthermore, if the percent changes much between years (e.g. more than 5 percentage points), then there may also be a data quality issue.",
+    "crumbs": [
+      "Utilização dos Serviços",
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Health services utilization</span>"
+    ]
+  },
+  {
+    "objectID": "pages/health-systems-analyses.pt.html",
+    "href": "pages/health-systems-analyses.pt.html",
+    "title": "18  Health Systems Performance",
+    "section": "",
+    "text": "18.1 Introduction\nThis section focuses on analyzing health systems performance, including the availability and quality of health services, health workforce, and health financing. The analysis aims to identify gaps and challenges in the health system that may affect the delivery of reproductive, maternal, newborn, child and adolescent health and nutrition (RMNCAH-N) services.\nIt has the following subsections:",
+    "crumbs": [
+      "Desempenho do Sistema de Saúde",
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Health Systems Performance</span>"
+    ]
+  },
+  {
+    "objectID": "pages/health-systems-analyses.pt.html#introduction",
+    "href": "pages/health-systems-analyses.pt.html#introduction",
+    "title": "18  Health Systems Performance",
+    "section": "",
+    "text": "Health system inputs (national and subnational)\nHealth system outputs (national and subnational)\nPrivate sector and RMNCAH-N services",
+    "crumbs": [
+      "Desempenho do Sistema de Saúde",
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Health Systems Performance</span>"
+    ]
+  },
+  {
+    "objectID": "pages/health-systems-analyses.pt.html#rationale-approach-and-implementation",
+    "href": "pages/health-systems-analyses.pt.html#rationale-approach-and-implementation",
+    "title": "18  Health Systems Performance",
+    "section": "18.2 Rationale, Approach and implementation",
+    "text": "18.2 Rationale, Approach and implementation\nRationale: Scientific basis for the analysis\nThe assessment of the burden of disease, the coverage, quality and equity of interventions and the inputs of the health system should guide policy making and targeting of programmes. Subnational analyses are critical: districts and regions/provinces are key units of the health systems and their service delivery. One element of the assessment is a basic assessment of the health system inputs in terms of financing, health workforce and infrastructure and outputs of the system in terms of service utilization and coverage.\nApproach: Description of analytical steps\nThe focus is on a basic comparison of health system outputs (coverage of interventions) with system inputs (infrastructure, workforce, financing) at the sub-national level (admin1). More complex methods such as efficiency analyses, frontier analysis, considering socioeconomic level of development and other factors are beyond the scope of this section of the analysis.\nThis section focuses on analyzing health systems performance, including the availability and quality of health services, health workforce, and health financing. The analysis aims to identify gaps and challenges in the health system that may affect the delivery of reproductive, maternal, newborn, child and adolescent health and nutrition (RMNCAH-N) services.\nIt has the following subsections:\n\nHealth system inputs (national and subnational)\nHealth system outputs (national and subnational)\nPrivate sector and RMNCAH-N services\n\nThe analysis for these subsections is conducted within the Health System Performance section of the Shiny App as shown here:\n\n\n\n\n\n\n\n\n\nPercentage ofAdmin Level 1 subnational units with &gt;90% coverage for Vaccine indicators (BCG, Measle1 and Penta3",
+    "crumbs": [
+      "Desempenho do Sistema de Saúde",
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Health Systems Performance</span>"
+    ]
+  },
+  {
+    "objectID": "pages/health-systems-inputs.pt.html",
+    "href": "pages/health-systems-inputs.pt.html",
+    "title": "19  Health systems inputs",
+    "section": "",
+    "text": "19.1 Health systems inputs\nFirst, the assessment focuses on the quality of data for the health system indicators at national and sub-national levels. For selected indicators, the assessment should focus on:\nNo health financing indicator:\nHealth financing indicators at the district or admin1 levels are difficult to obtain and are often limited to budget and not expenditures. The data also tends to be limited to government resources and may miss on other sources of financing. (These data are not used here, but if available, the financial data should be used to assess health system inputs.)\nCore health professionals per 10,000 population:\nHealth workforce indicators are often of poor quality and not easy to obtain. The main indicator is the number of core health professionals per 10,000 population. These include physicians, non-physician clinicians (depending on the country, but often with surgical skills and multiple years of training but no academic degree), nurses and midwives.\nIn 2006, WHO suggested that at least 23 core health professionals were needed to make major progress in reducing maternal and child mortality with high skilled birth attendance. More recently, higher thresholds have been used: at least 44.5 per 10,000 population to achieve universal health coverage.\nNumber of health facilities per 10,000 population:\nHealth infrastructure is another useful indicator, including all hospitals, health centers and lower level health facilities such as health posts and dispensaries. Both private and public sectors should be included. The number of health facilities per 10,000 population is a crude indicator as it mixes small and large facilities (2 per 10,000 could be used as an indicative number, where less than 2 is considered low).\nNumber of hospitals per 100,000 population and number of hospital beds per 10,000 population:\nAdditional insights into the infrastructure for in-patient services can be obtained by computing the number of hospitals per 100,000 population and by the number of hospital beds per 10,000 population.\nFigure: Number of hospitals per 100,000 population, by region and national\nFigure: Number of hospital beds per 10,000 population, by region and national",
+    "crumbs": [
+      "Desempenho do Sistema de Saúde",
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Health systems inputs</span>"
+    ]
+  },
+  {
+    "objectID": "pages/health-systems-inputs.pt.html#health-systems-inputs",
+    "href": "pages/health-systems-inputs.pt.html#health-systems-inputs",
+    "title": "19  Health systems inputs",
+    "section": "",
+    "text": "1) comparison with global data for selected indicators (national level only)\n2) plausibility of indicator values by subnational units – major outliers? Improbable patterns?\nIn addition, it is useful to explore the associations of the health system indicators with each other (e.g. workforce and beds), if only to detect inconsistencies by admin1 (province, region, county).\nIt is also useful to assess the association of the health system performance between different administrative levels (e.g., admin 1 and district) to detect outliers or inconsistencies.\n\n\n\n\n\n\n\n\n\n\n\n\n\nCore health professionals per 10,000 population\n\n\n\n\n\n\n\nNumber of health facilities per 10,000 population",
+    "crumbs": [
+      "Desempenho do Sistema de Saúde",
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Health systems inputs</span>"
+    ]
+  },
+  {
+    "objectID": "pages/health-systems-outputs-by-inputs.pt.html",
+    "href": "pages/health-systems-outputs-by-inputs.pt.html",
+    "title": "20  Health systems outputs by inputs",
+    "section": "",
+    "text": "20.1 Health systems outputs by inputs at the subnational level\nThe second part of the analysis explores the association between health system inputs and service utilization and coverage by sub-national units (admin1).\nThe following can be examined:\n{r, out.width = “100%”, fig.align = “center”, echo=F} knitr::include_graphics(here::here(“images”,“8-health_system_ratio_opd_u5_hwf.png”))",
+    "crumbs": [
+      "Desempenho do Sistema de Saúde",
+      "<span class='chapter-number'>20</span>  <span class='chapter-title'>Health systems outputs by inputs</span>"
+    ]
+  },
+  {
+    "objectID": "pages/health-systems-outputs-by-inputs.pt.html#health-systems-outputs-by-inputs-at-the-subnational-level",
+    "href": "pages/health-systems-outputs-by-inputs.pt.html#health-systems-outputs-by-inputs-at-the-subnational-level",
+    "title": "20  Health systems outputs by inputs",
+    "section": "",
+    "text": "Association between hospital density (per 100,000) and admission rates for children under 5 and beds per 10,000 population and admission rates for children under 5, by admin1. \n\n\nWe expect that regions with lower hospital density have lower admission rates for children, and those with higher density have higher admission rates. This would show as a positive slope of a linear regression line, as below. \nInsert screenshot (6-ipd_use)\nThere may be major outliers. For instance, regions with low density and high admission rates: this may be because:\n\nHospital density is under-reported by these regions\nHospitals in the low density regions have very high admission and bed occupancy rates\nHospital admission are over-reported in these regions.\n\nThe interpretation should be based on knowledge of the actual situation in the regions.\n\n\nAssociation between health workforce (core health professionals per 10,000) and outpatient visits among children under 5, by region\n\n\nWe expect that regions with lower health workforce density have lower OPD utilization rates for children, and those with higher density have higher admission rates. This would show as a positive slope of a linear regression line, as in the figure below.\n\n\n\nThere may be major outliers, for instance, regions with low health workforce density and high OPD utilization rates. This may be because:\n\nHealth workforce density is under-reported by these regions\nHealth workers have a very high workload in these regions\nHealth workforce density is over-reported in these regions (less likely).\n\nThe interpretation should be based on knowledge of the actual situation in the regions.\n\nAssociation between health workforce (core health professionals per 10,000) and institutional live birth coverage, by region\n\n\n\nFor delivery coverage, data by region from either a recent household survey or the most recent DHIS2 data derived estimate can be used.\nWe expect that regions with lower health workforce density have lower institutional delivery rates for children, and those with higher density have higher rates. This would show as the positive slope of a linear regression line.\nThe considerations for the interpretation are the same as above.",
+    "crumbs": [
+      "Desempenho do Sistema de Saúde",
+      "<span class='chapter-number'>20</span>  <span class='chapter-title'>Health systems outputs by inputs</span>"
+    ]
+  },
+  {
+    "objectID": "pages/private-sector-analyses.pt.html",
+    "href": "pages/private-sector-analyses.pt.html",
+    "title": "21  Private Sector Analysis",
+    "section": "",
+    "text": "21.1 Private sector and RMNCH services",
+    "crumbs": [
+      "Desempenho do Sistema de Saúde",
+      "<span class='chapter-number'>21</span>  <span class='chapter-title'>Private Sector Analysis</span>"
+    ]
+  },
+  {
+    "objectID": "pages/private-sector-analyses.pt.html#private-sector-and-rmnch-services",
+    "href": "pages/private-sector-analyses.pt.html#private-sector-and-rmnch-services",
+    "title": "21  Private Sector Analysis",
+    "section": "",
+    "text": "21.1.1 Rationale, Approach and implementation\nRationale: Scientific basis for the analysis\nThe private sector plays a significant role in delivering RMNCH (Reproductive, Maternal, Newborn, and Child Health) services, although its contribution varies both between and within countries. While routine health facility data are intended to capture private sector service delivery—such as the number of deliveries or family planning visits—this information is often incomplete, as reporting from private facilities tends to be less consistent than from public ones. Ideally, all private facilities should be included in the master facility list, but this is frequently not the case.\nTo estimate the private sector’s contribution more accurately, survey data such as those from DHS and MICS can be used. These surveys include questions about the source of health services, distinguishing between public and private providers.\nApproach: Description of analytical steps\nIn this analysis, we use three key indicators to assess the private sector’s role at the national level and disaggregated by urban and rural residence.\nThe three indicators are:\n\nDeliveries: Percent of live births occurring in health facilities among all live births in the last two years, by public private; with the share that is private\nSurgical interventions: Percent of C-sections that occur in health facilities among all live births in the last two years, by public private; with the share that is private\nCurative care for children: Percent of children under-five who have sought care for fever, acute respiratory illness or diarrhoea in the last two weeks before the interview, by public private; with the share that is private\n\nIt is generally expected that women and children in urban areas rely more on privately provided services than those in rural areas.\nThere are, however, two caveats to the interpretation:\n\nRural women may use private services located in urban areas, which means that the percentage of women / children is overestimated for rural residents.\nThe distinction between private-for-profit and non-profit private facilities is not made in this analysis. Each country uses a different classification and naming convention, and also for the survey respondent this distinction is difficult to make.\n\nImplementation: Conducting analysis in the Shiny App\nThis can be analyzed using the Health System Performance tab -&gt; Private sector as shown in ?fig-hs_performance.",
+    "crumbs": [
+      "Desempenho do Sistema de Saúde",
+      "<span class='chapter-number'>21</span>  <span class='chapter-title'>Private Sector Analysis</span>"
+    ]
+  },
+  {
+    "objectID": "pages/planning-ahead.pt.html",
+    "href": "pages/planning-ahead.pt.html",
+    "title": "22  Planification à l’avance",
+    "section": "",
+    "text": "L’objectif de la dernière séance de l’atelier est d’identifier des actions concrètes pour faire avancer le travail que vous avez réalisé. Au cours de la préparation et de l’interprétation de vos analyses, vous avez été encouragés à réfléchir au cycle complet de la prise de décision basé sur les données (voir le diagramme ci-dessous).\nIl s’agit d’abord d’identifier les utilisateurs des données et de comprendre les questions ou les problèmes qu’ils cherchent à résoudre, puis de préparer les résultats, l’interprétation et les idées qui seraient les plus utiles pour répondre à ces questions ou à ces problèmes.\nLes produits d’information et les stratégies de diffusion doivent être adaptés aux préférences des utilisateurs et complétés par un soutien aux décideurs dans l’utilisation de l’analyse et le suivi des actions convenues. Cela nécessite un engagement continu entre les fournisseurs de données et les utilisateurs pour comprendre les besoins et apprendre ce qui est le plus utile pour répondre à ces besoins.\n\n\n\n\n\n\n\n\n\nDiagramme : Cycle de prise de décision basé sur les données\n\n\n\n\nLorsque vous préparez vos plans, réfléchissez à vos cas d’utilisation et à vos publics, ainsi qu’aux plateformes et aux réunions qui pourraient être utilisées pour atteindre ces publics. Il sera important de ne pas se contenter de partager l’analyse dans le cadre d’un événement ponctuel, mais de réfléchir à la manière d’alimenter les forums de routine où des recommandations ou des décisions sont prises. L’une des principales utilisations sera de contribuer aux examens de routine des progrès et des performances menés par le ministère de la santé, tels que les rapports analytiques pour les examens annuels ou pour les rapports mondiaux sur le SRMNEA-N.\nRéfléchissez également à la manière dont cela s’articulera avec votre collaboration nationale Countdown et les plans existants pour renforcer les capacités d’analyse et d’utilisation des données du SRMNEA-N. Par exemple, si vous organisez des séances de travail avec vos publics cibles pour partager les résultats, vous pourriez également en profiter pour explorer certains des concepts appris au cours de l’atelier et renforcer les compétences pour interpréter les analyses et identifier les possibilités d’action (voir d’autres suggestions ci-dessous). Si vous avez participé à des ateliers CAM au cours des années précédentes, réfléchissez à ce qui a bien fonctionné jusqu’à présent et s’il existe de nouveaux cas d’utilisation, de nouveaux publics ou de nouvelles approches de diffusion que vous pourriez explorer, en vous inspirant de vos expériences et de celles d’autres pays.\nExemples d’activités de suivi de l’atelier\n\n\n\n\n\n\n\nObjet de l’activité\nExemples\n\n\n\n\nSoutenir l’utilisation des données et l’action\n\nPrésenter les résultats, l’interprétation et les idées clés à la plateforme nationale et aux groupes de travail techniques pour qu’ils les examinent et les interprètent. Les aider à identifier les possibilités d’action basées sur les données et les preuves - par exemple, s’attaquer aux inégalités géographiques ou de genre, tester des projets pilotes avec la recherche ou l’évaluation de la mise en œuvre, plaider en faveur d’un changement de politique ou de ressources, etc.\nInclure l’analyse dans la base de données qui servira à l’élaboration de la nouvelle stratégie du RMNCAH-N, à l’examen à mi-parcours et à l’évaluation, si l’un de ces processus est en cours.\nRédiger un article ou une note analytique à l’intention de publics ciblés, présentant les principaux enseignements, les points à retenir et les actions proposées à la suite de l’atelier, afin de servir de point de départ pour le suivi.\n\n\n\nRenforcer les capacités\n\nAssurer une formation en cascade aux niveaux national et local sur les concepts, l’interprétation et l’utilisation d’analyses spécifiques, par le biais de la collaboration nationale en matière de compte à rebours.\nOrganiser des sessions pour sensibiliser le personnel des bureaux nationaux de statistiques à la méthodologie du compte à rebours afin de favoriser l’appropriation.\nPartager les concepts et les résultats de l’évaluation de la qualité des données des établissements de santé avec le personnel du SNIS et du S&E afin d’améliorer leur compréhension et de renforcer les systèmes de routine pour la qualité des données.\nRenforcer les capacités du personnel du SNIS et du S&E pour qu’il comprenne la pertinence des indicateurs et des analyses liés au genre et à l’équité.\nRenforcer la capacité du personnel à intégrer certaines des nouvelles techniques et approches analytiques dans les tableaux de bord, les notes politiques, les rapports statistiques, etc.\n\n\n\nIdentifier les besoins pour une analyse plus approfondie\n\nIdentifier les possibilités de recherche sur la mise en œuvre afin d’éliminer les goulets d’étranglement ou d’informer sur la possibilité d’étendre ou de reproduire les réussites sur la base des résultats de l’analyse.\nIdentifier les possibilités de recherches ou d’analyses supplémentaires afin de mieux comprendre les tendances en matière de genre et d’inégalité qui ont été observées dans l’analyse et d’informer les options d’action.",
+    "crumbs": [
+      "<span class='chapter-number'>22</span>  <span class='chapter-title'>Planification à l'avance</span>"
+    ]
+  }
+]
