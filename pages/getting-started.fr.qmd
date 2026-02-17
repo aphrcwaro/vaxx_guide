@@ -1,0 +1,169 @@
+# Premiers pas
+
+```{r}
+#| echo: false
+
+source(here::here("_common.R"))
+```
+
+Dans le passé, les analyses du Countdown to 2030 (CD2030) étaient menées à l'aide de Stata, en s'appuyant sur une série de fichiers `.do`. Ces scripts ont depuis été traduits en un package R — **cd2030.rmncah** — et intégrés dans une application Shiny conviviale. Cette application permet aux utilisateurs de données de santé de charger des données, d'effectuer des évaluations de la qualité des données (DQA), de réaliser des analyses et de générer des sorties pertinentes à l'aide de modèles de rapport préconçus.
+
+L'outil facilite une inspection approfondie de la qualité des données et prend en charge l'analyse infranationale (jusqu'au niveau administratif 2) pour divers indicateurs liés à la qualité des données et aux résultats RMNCAH.
+
+## Exigences logicielles {#sec-software-requirements}
+
+Pour utiliser cet outil innovant d'analyse de données de santé numériques, les éléments suivants sont requis :
+
+-   Installer les dernières versions de **R** et **RStudio**
+-   Installer le package R **cd2030.rmncah** (instructions d'installation [disponibles ici](denominator-assessment.qmd#sec-instal-cd2030-rmncah))
+-   Assurer l'accès à tous les [jeux de données](#sec-data-requirements) et [paramètres](denominator-assessment.qmd#sec-denom-analysis-setup) requis
+-   Installer **RTools** (pour les utilisateurs de Windows, afin de prendre en charge la compilation des packages)
+
+## Installation de R et RStudio {#sec-instal-r}
+
+Pour commencer à travailler avec R, il est nécessaire d'installer à la fois R et RStudio. R est le langage de programmation sous-jacent, tandis que RStudio fournit une interface conviviale qui simplifie le développement et l'exécution des scripts R. Les deux sont disponibles gratuitement et largement pris en charge sur toutes les plateformes.
+
+**Remarque** : R et RStudio ne sont pas la même chose. R est le langage de programmation, tandis que RStudio est un environnement de développement intégré (IDE) qui facilite le travail avec R.
+
+Pour assurer une installation et une fonctionnalité fluides, il est recommandé d'installer **R** en premier, suivi de **RStudio**. Cet ordre est important car RStudio dépend de R pour fonctionner correctement.
+
+### Étape 1 : Télécharger et installer R
+
+R est distribué via le [Comprehensive R Archive Network (CRAN)](https://cran.r-project.org/). Sélectionnez votre système d'exploitation sur la page d'accueil : Windows, Mac ou Linux.
+
+**Windows**
+
+1.  Accédez à ***Download R for Windows*** et sélectionnez l'option "base".
+2.  Cliquez sur le premier lien (par exemple, "Download R x.x.x for Windows") pour télécharger l'installateur.
+3.  Exécutez l'installateur et suivez les invites. ***Des privilèges d'administrateur peuvent être requis***.
+4.  R sera installé dans les fichiers programme de votre système, avec un raccourci ajouté au menu Démarrer.
+
+**Mac**
+
+1.  Cliquez sur ***Download R for Mac*** sur la page d'accueil du CRAN.
+2.  Téléchargez le dernier package de version et exécutez l'installateur.
+3.  Les paramètres d'installation par défaut sont généralement suffisants. Il peut vous être demandé de saisir votre mot de passe système.
+
+**Remarque**
+
+R n'est pas une application logicielle graphique mais un environnement de programmation. Il est préférable de l'utiliser conjointement avec RStudio, qui fournit une interface cohérente et conviviale sur tous les systèmes d'exploitation.
+
+### Étape 2 : Télécharger et installer RStudio
+
+RStudio est un environnement de développement intégré (IDE) conçu pour R. Il dispose d'un éditeur de scripts, d'une console, d'un visualiseur graphique et d'outils supplémentaires pour la gestion des packages, le débogage et l'organisation des fichiers.
+
+Téléchargez RStudio depuis le [site web de Posit](https://posit.co/downloads/)
+
+**Ai-je toujours besoin de télécharger R ?** Même si vous utilisez RStudio, vous devrez toujours télécharger R sur votre ordinateur. RStudio vous aide à utiliser la version de R qui réside sur votre ordinateur, mais il n'est pas livré avec une version de R propre.
+
+Après l'installation, lancez RStudio et commencez à interagir avec R via sa console et ses fenêtres de script.
+
+```{r, out.width = "100%", fig.align = "center", echo=F}
+knitr::include_graphics(here::here("images","rstudio.png"))
+# library(knitr)
+# opts_chunk$set(list(echo = FALSE, eval = FALSE))
+```
+
+## Installation du package CD2030 RMNCAH {#sec-instal-cd2030-rmncah}
+
+Après avoir installé R et RStudio, vous pouvez procéder à l'installation de l'application Countdown2030 RMNCAH, qui est hébergée sur GitHub sous le dépôt [`cd2030.rnncah`]([https://github.com/aphrcwaro/cd2030.rmncah](https://github.com/aphrcwaro/cd2030.rmncah)). L'application est implémentée en tant que package R et prend en charge la génération de tableaux de bord interactifs via Shiny.
+
+### Installation via la console R
+
+**Version Stable**
+
+```{r, eval=FALSE}
+if (!requireNamespace("devtools", quietly = TRUE)) install.packages("devtools")
+devtools::install_github("aphrcwaro/cd2030.rmncah@v1.0.0")
+```
+
+**Version de Développement**
+
+```{r, eval=FALSE}
+
+if (!requireNamespace("devtools", quietly = TRUE)) install.packages("devtools")
+devtools::install_github("aphrcwaro/cd2030.rmncah")
+
+```
+
+### Lancement de l'application
+
+```{r, eval=FALSE}
+
+library(cd2030.rmncah)
+dashboard()
+```
+
+Le tableau de bord Shiny se lancera automatiquement dans votre navigateur web par défaut.
+
+```{r, out.width = "100%", fig.align = "center", echo=F}
+knitr::include_graphics(here::here("images","dashboard.jpg"))
+# library(knitr)
+# opts_chunk$set(list(echo = FALSE, eval = FALSE))
+```
+
+### Installation alternative via GitHub Desktop ou Git ou téléchargement direct
+
+Les utilisateurs avancés ayant des comptes GitHub peuvent préférer cloner le dépôt directement. Cette méthode permet :
+
+-   Le contrôle de version
+-   La contribution au code
+-   L'inspection de la structure du package
+-   Une fois cloné, ouvrez le fichier .Rproj dans RStudio pour définir le répertoire de travail.
+
+::: columns
+::: {.column width="50%"}
+
+```{r, out.width = "100%", fig.align = "center", echo=F}
+knitr::include_graphics(here::here("images","github-repo.png"))
+# library(knitr)
+# opts_chunk$set(list(echo = FALSE, eval = FALSE))
+```
+
+:::
+
+::: {.column width="50%"}
+
+```{r, out.width = "100%", fig.align = "center", echo=F}
+knitr::include_graphics(here::here("images","project-file.png"))
+# library(knitr)
+# opts_chunk$set(list(echo = FALSE, eval = FALSE))
+```
+
+:::
+:::
+
+Pour installer et exécuter :
+
+```{r, eval=FALSE}
+library(cd2030.rmncah)
+dashboard()
+```
+
+### RTools pour Windows
+
+Pour compiler des packages à partir de la source, en particulier les versions de développement, RTools doit être installé. Assurez la compatibilité avec votre version de R installée :
+
+-   **R 4.2.0** → Rtools42
+-   **R 4.4.0** → Rtools44
+-   **R 4.5.0** → Rtools45
+
+RTools peut être téléchargé depuis [CRAN](https://cran.r-project.org/bin/windows/Rtools/)
+
+## Exigences en matière de données {#sec-data-requirements}
+
+### Jeux de données requis
+
+Pour exécuter l'analyse efficacement, chaque équipe de pays devra disposer d'un dossier contenant les jeux de données suivants :
+
+1.  Données des établissements de santé (fichier .xlsx)
+2.  Estimations des Nations Unies
+3.  Données d'enquête
+4.  Données de mortalité des Nations Unies
+5.  Données FPET
+
+Ces jeux de données seront fournis aux équipes de pays par l'équipe Countdown2030 avant l'atelier.
+
+### Paramètres d'analyse spécifiques au pays
+
+Les ([paramètres](denominator-assessment.qmd#sec-denom-analysis-setup)) suivants seront requis pour exécuter l'analyse.

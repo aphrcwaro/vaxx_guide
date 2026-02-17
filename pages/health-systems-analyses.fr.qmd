@@ -1,0 +1,45 @@
+# Health Systems Performance
+
+```{r}
+#| echo: false
+
+source(here::here("_common.R"))
+```
+
+## Introduction
+
+This section focuses on analyzing health systems performance, including the availability and quality of health services, health workforce, and health financing. The analysis aims to identify gaps and challenges in the health system that may affect the delivery of reproductive, maternal, newborn, child and adolescent health and nutrition (RMNCAH-N) services.
+
+It has the following subsections:
+
+-   Health system inputs (national and subnational)
+
+-   Health system outputs (national and subnational)
+
+-   Private sector and RMNCAH-N services
+
+## Rationale, Approach and implementation
+
+**Rationale: Scientific basis for the analysis**
+
+The assessment of the burden of disease, the coverage, quality and equity of interventions and the inputs of the health system should guide policy making and targeting of programmes. Subnational analyses are critical: districts and regions/provinces are key units of the health systems and their service delivery. One element of the assessment is a basic assessment of the health system inputs in terms of financing, health workforce and infrastructure and outputs of the system in terms of service utilization and coverage.
+
+**Approach: Description of analytical steps**
+
+The focus is on a basic comparison of health system outputs (coverage of interventions) with system inputs (infrastructure, workforce, financing) at the sub-national level (admin1). More complex methods such as efficiency analyses, frontier analysis, considering socioeconomic level of development and other factors are beyond the scope of this section of the analysis.
+
+This section focuses on analyzing health systems performance, including the availability and quality of health services, health workforce, and health financing. The analysis aims to identify gaps and challenges in the health system that may affect the delivery of reproductive, maternal, newborn, child and adolescent health and nutrition (RMNCAH-N) services.
+
+It has the following subsections:
+
+-   Health system inputs (national and subnational)
+-   Health system outputs (national and subnational)
+-   Private sector and RMNCAH-N services
+
+The analysis for these subsections is conducted within the Health System Performance section of the Shiny App as shown here:
+
+```{r, out.width = "100%", fig.align = "center", echo=F, fig.cap = "Percentage ofAdmin Level 1 subnational units with >90% coverage for Vaccine indicators (BCG, Measle1 and Penta3"}
+
+knitr::include_graphics(here::here("images","6-hs_hs_performance.png"))
+
+```

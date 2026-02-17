@@ -1,0 +1,46 @@
+---
+title: "Health systems inputs"
+---
+
+```{r}
+#| echo: false
+source (here::here("_common.R"))
+```
+
+## Health systems inputs
+
+First, the assessment focuses on the quality of data for the health system indicators at national and sub-national levels. For selected indicators, the assessment should focus on:
+
+1.  1\) comparison with global data for selected indicators (national level only)
+
+2.  2\) plausibility of indicator values by subnational units – major outliers? Improbable patterns?
+
+3.  In addition, it is useful to explore the associations of the health system indicators with each other (e.g. workforce and beds), if only to detect inconsistencies by admin1 (province, region, county).
+
+4.  It is also useful to assess the association of the health system performance between different administrative levels (e.g., admin 1 and district) to detect outliers or inconsistencies.
+
+**No health financing indicator:**
+
+Health financing indicators at the district or admin1 levels are difficult to obtain and are often limited to budget and not expenditures. The data also tends to be limited to government resources and may miss on other sources of financing. (*These data are not used here, but if available, the financial data should be used to assess health system inputs.)*
+
+**Core health professionals per 10,000 population:**
+
+Health workforce indicators are often of poor quality and not easy to obtain. The main indicator is the number of core health professionals per 10,000 population. These include physicians, non-physician clinicians (depending on the country, but often with surgical skills and multiple years of training but no academic degree), nurses and midwives.
+
+In 2006, WHO suggested that at least 23 core health professionals were needed to make major progress in reducing maternal and child mortality with high skilled birth attendance. More recently, higher thresholds have been used: at least 44.5 per 10,000 population to achieve universal health coverage.
+
+![Core health professionals per 10,000 population](images/6-hs_workforce.png){fig-align="center"}
+
+**Number of health facilities per 10,000 population:**
+
+Health infrastructure is another useful indicator, including all hospitals, health centers and lower level health facilities such as health posts and dispensaries. Both private and public sectors should be included. The number of health facilities per 10,000 population is a crude indicator as it mixes small and large facilities (2 per 10,000 could be used as an indicative number, where less than 2 is considered low).
+
+![Number of health facilities per 10,000 population](images/6-hs_hf_density.png)
+
+**Number of hospitals per 100,000 population and number of hospital beds per 10,000 population:**
+
+Additional insights into the infrastructure for in-patient services can be obtained by computing the number of hospitals per 100,000 population and by the number of hospital beds per 10,000 population.
+
+***Figure: Number of hospitals per 100,000 population, by region and national***
+
+***Figure: Number of hospital beds per 10,000 population, by region and national***

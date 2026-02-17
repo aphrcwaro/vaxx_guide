@@ -1,0 +1,127 @@
+# National coverage of interventions
+
+```{r}
+#| echo: false
+
+source(here::here("_common.R"))
+```
+
+## Rationale, Approach and implementation
+
+**Rationale: Scientific basis for the analysis**
+
+Coverage of interventions is a critical and direct output of health systems. Regular tracking of coverage at national and subnational levels has become the mainstay of monitoring progress in national health plans and international initiatives. Reproductive, maternal, newborn, child and adolescent health indicators with targets are the most common indicators of national health plans and global monitoring. Both health facility data and household surveys can provide coverage statistics, and an integrated analytical approach is desirable.
+
+**Approach: Description of analytical steps**
+
+Many coverage indicators can be estimated in both surveys and from health facility data. Both are critical pieces of information and need to be considered in conjunction with each other. The Table below lists the indicators, for antenatal and delivery care and child immunization, considered in the health facility data analysis in the workshop, including the variable names (in R) in the first column.
+
++-----------------------+-------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------+----------------------------------------------------------------+
+| **Name (in R)**       | **Indicator title**                                                                                               | **Survey denominator**                                       | **Facility data denominator**                                  |
++=======================+===================================================================================================================+==============================================================+================================================================+
+| **Antenatal care**    |                                                                                                                   |                                                              |                                                                |
++-----------------------+-------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------+----------------------------------------------------------------+
+| anc1                  | Antenatal care at least one or more visits among all pregnant women (%)                                           | Women aged 15-49 years with a live birth in the last 2 years | Estimated livebirths as denominator                            |
++-----------------------+-------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------+----------------------------------------------------------------+
+| anc_1 trimester       | Antenatal care 1+ visits in 1st trimester of pregnancy among all pregnant women (%)                               |                                                              |                                                                |
++-----------------------+-------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------+----------------------------------------------------------------+
+| anc4                  | Antenatal care 4+ visits among all pregnant women (%)                                                             |                                                              |                                                                |
++-----------------------+-------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------+----------------------------------------------------------------+
+| ipt2                  | Intermittent preventive therapy for malaria - 2nd dose / 3^rd^ dose during pregnancy among all pregnant women (%) |                                                              |                                                                |
+|                       |                                                                                                                   |                                                              |                                                                |
+| ipt3                  |                                                                                                                   |                                                              |                                                                |
++-----------------------+-------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------+----------------------------------------------------------------+
+| ifa90                 | Iron folic acid supplementation given (90 days supply) during pregnancy among all pregnant women (%)              |                                                              |                                                                |
++-----------------------+-------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------+----------------------------------------------------------------+
+| hiv_test              | HIV test conducted among pregnant women (%)                                                                       | Not available (in some survey reports)                       |                                                                |
++-----------------------+-------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------+----------------------------------------------------------------+
+| syph ilis_test        | Syphilis test conducted among pregnant women (%)                                                                  |                                                              |                                                                |
++-----------------------+-------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------+----------------------------------------------------------------+
+| **Delivery** **care** |                                                                                                                   |                                                              |                                                                |
++-----------------------+-------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------+----------------------------------------------------------------+
+| instd eliveries       | Institutional live births among all live births                                                                   | Live births in the last 2 years                              | Estimated livebirths as denominator.                           |
++-----------------------+-------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------+----------------------------------------------------------------+
+| sba                   | Skilled birth attendance                                                                                          |                                                              |                                                                |
++-----------------------+-------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------+----------------------------------------------------------------+
+| low_bweight           | Low birth weight (below 2500 grams) among all live births                                                         |                                                              |                                                                |
++-----------------------+-------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------+----------------------------------------------------------------+
+| c-section             | C-section among all live births                                                                                   |                                                              |                                                                |
++-----------------------+-------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------+----------------------------------------------------------------+
+| pnc48h                | Postnatal care within 48 hours                                                                                    |                                                              |                                                                |
++-----------------------+-------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------+----------------------------------------------------------------+
+| **Immunization**      |                                                                                                                   |                                                              |                                                                |
++-----------------------+-------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------+----------------------------------------------------------------+
+| bcg                   | BCG vaccination to infants                                                                                        | Children 12-23 months                                        | N of surviving infants (beyond neonatal period)                |
++-----------------------+-------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------+----------------------------------------------------------------+
+| penta1                | Penta vaccine - 1st dose to infants                                                                               | Children 12-23 months                                        |                                                                |
++-----------------------+-------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------+----------------------------------------------------------------+
+| penta3                | Penta vaccine - 3rd dose to infants                                                                               | Children 12-23 months                                        |                                                                |
++-----------------------+-------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------+----------------------------------------------------------------+
+| measles1              | Measles vaccine - 1st dose (to infants)                                                                           | Children 12-23 months                                        | N of surviving infants (beyond post-NN period)                 |
++-----------------------+-------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------+----------------------------------------------------------------+
+| measles2              | Measles vaccine - 1st dose (older children)                                                                       | Children 24-35 months                                        | N of surviving infants (beyond postneonatal period) (or age 1) |
++-----------------------+-------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------+----------------------------------------------------------------+
+
+The facility data can be used to generate annual coverage estimates, and the coverage results should be compared and interpreted alongside the results from recent surveys. The analysis results will include both coverage estimates.
+
+**Implementation: Conducting analysis in the Shiny App**
+
+### Antenatal care (ANC) {#sec-nat-cov-anc}
+
+Most countries have at least one ANC indicator with a target in the national plan. The global ENAP/EPMM coverage targets for 2025 are: globally, at least 90% of pregnant women with 4 or more ANC care visits, and 90% of countries with at least 70% coverage. There are several ANC indicators that capture:
+
+-   *contact with health services* during pregnancy (ANC 1^st^ visit, ANC 4 or more visits, ANC first visit in first trimester). ANC1 is often considered an indicator of basic access to health services. It is high in most countries, and in many instances, the numbers of ANC1 visits in the routine health facility data can provide a better denominator for the ANC and delivery indicators than population projections (see section 2 on denominators).
+
+-   *contents of services* provided (intermittent preventive therapy (IPT2 or IPT3) against malaria, HIV testing, syphilis testing and iron-folic acid (IFA) supplementation (at least 90 tablets given to the pregnant woman)). Some countries will not have policies for all of these diagnostic or therapeutic interventions during pregnancy (e.g., no IPT if no malaria risk).
+
+For most indicators, the surveys also provide coverage estimates for the national level, with 95% confidence intervals. For most coverage indicators the data refer to a period before the survey: e.g., institutional birth coverage for the live births in the two years preceding the survey. This means that the midpoint of the coverage estimate lies one year before the survey.
+
+An example of two graphs for ANC, based on facility and survey data, is shown below, showing both good concordance between the facility-based and survey results for coverage of ANC first visit in the first trimester and poor concordance in case of ANC4 visits. In the latter case, it is evident that ANC4 is overreported in the facility data as coverage is much higher than the survey and unlikely to be high (over 90% during 2021-23 and even 101% in 2023). Poor recording and reporting of ANC 4^th^ visits in the DHIS2 data is likely the main cause.
+
+Sometimes, an indicator may reach an unlikely high coverage at the national level, say over 125%. This may be because the data quality of the numerator of the coverage indicator is poor, the denominator is wrong, or the intervention is given and recorded more than once during pregnancy. An example is IFA supplementation. In that case, the computation of coverage is not useful. It is better to express it differently. For instance, if coverage is 200%, it is better to compute the average number of courses of 90 IFA tablets that a pregnant woman received (in this case 2.0 per pregnant woman in the population).[^national-coverage-1]
+
+[^national-coverage-1]: Surveys can provide coverage of IFA supplementation, as here the unit of data analysis is individual pregnant women.
+
+```{r, out.width= "100%", fig.align= "center", echo=FALSE, fig.cap = "Subnational Coverage Inequality for ANC4"}
+  knitr::include_graphics(here::here("images", "2-national-anc-cov.png"))
+```
+
+### Delivery care {#sec-nat-cov-delivery}
+
+All countries have at least one delivery care indicator with a target in the national plan. The global ENAP/EPMM coverage target for 2025 is at least 90% global average coverage, and 90% of countries at least 80% coverage of skilled birth attendance (SBA). For postnatal care (PNC) within 2 days the global coverage target is 80% and the 90% of countries with at least 60% coverage.
+
+*Institutional (live) birth coverage and SBA* are closely related, as almost all deliveries with a skilled attendant occur in health facilities. From the analytical point of view, institutional birth coverage is preferred because it is a more objective measure and avoids issues with the definition of what constitutes skilled birth. SBA is often preferred from the health care perspective, as it includes an element of quality: obviously, an institutional delivery without skilled attendance is not desirable, and in some countries home SBA may be part of the health care delivery strategy. attendance. Either indicator works well to capture delivery care.
+
+*Caesarean section* is a live saving intervention and an important indicator. A general rule of thumb is, put forward by WHO, that in a population the need for Caesarean section is in the range of 10-15% of all deliveries. If the Caesarean section rate is below 10%, that means that there is unmet need. If the Caesarean section rate is over 10-15%, that implies that there most likely overuse of Caesarean section. It may however also imply that there is still unmet need among certain population groups (e.g. the poorest women or rural women) in combination with overuse in other subgroups of the population (such as urban and richer women).
+
+*Postnatal care (PNC) within 48 hours* is provided to the mother/women and newborn. Country systems may have different ways of recording the type of PNC and also surveys are known to have data issues with PNC for the mother or the baby.[^national-coverage-2] Some countries use multiple definitions of timing of the PNC visit (e.g., within the first week).
+
+[^national-coverage-2]: Amouzou A, Hazel E, Vaz L, Sanni Y, Moran A. Discordance in postnatal care between mothers and newborns: Measurement artifact or missed opportunity? J Glob Health. 2020 Jun;10(1):010505.
+
+*Low birthweight* is a critical indicator of neonatal health. It is most meaningful if the distinction between prematurity and small-for-gestational age is made, but most facility reporting systems and most surveys do not have such data. All babies are supposed to have been weighed right after birth and the percent of newborns weighing less than 2500 grams is usually reported in the DHIS2 system. As general guidance for the interpretation of the data, low birthweight prevalence in sub-Saharan Africa was estimated at 13.9% (95% credibility interval: 12.4-15.7%) for 2020.[^national-coverage-3]
+
+[^national-coverage-3]: Okwaraji YB, et al. National, regional, and global estimates of low birthweight in 2020, with trends from 2000: a systematic analysis. Lancet. 2024 Mar 16;403(10431):1071-1080.
+
+### Immunization {#sec-nat-cov-immunization}
+
+Immunization coverage indicators are included in virtually every country's health sector monitoring plan. A general target is at least 90% coverage for essential vaccines given in childhood and adolescence.
+
+For the national coverage analyses, the focus is on **BCG**, first and third doses of penta/DTP (penta1 or DTP1 and penta3 or DTP3), and first and second doses of measles vaccine, often given in combination with rubella vaccine. *BCG and penta/DTP vaccinations* are recommended to be given at birth (BCG), 6 weeks (penta1) and 14 weeks (penta3). For facility data, the number of vaccinations given to infants is used and the denominator is the number of eligible children in the population, which is approximated as live births minus neonatal deaths. Survey data generally provide vaccination coverage among children 12-23 months (may also include the age at which the vaccination was given - mostly before the first birthday).[^national-coverage-4]
+
+[^national-coverage-4]: Therefore, the survey data on immunization roughly refer to the program performance in the year before the survey
+
+The first dose of measles vaccine is generally recommended at age 9 months. For the facility data, the recording and reporting usually separate measles given to children under 1 year and children 1 year and older, though the quality of recording and reporting for the age group may vary (there may be a tendency to record measles vaccinations after 12 months as given to infants). Here, we use children who have survived the first year of life (live births minus neonatal deaths minus postneonatal deaths) as the denominator for measuring vaccination coverage. The second dose of measles uses children aged 24-35 months as denominator. This can be estimated as live births minus neonatal deaths = 2\* postneonatal deaths).
+
+WHO and UNICEF work with countries to produce annual estimates of immunization coverage based on all data sources. The national estimates, called WUENIC, are published and available for 2020-2024. These time trends are included in the analysis outputs, to compare the 2019-2024 annual estimates of the facility data produced in the workshop and the survey results.
+
+### Family planning {#sec-nat-cov-fp}
+
+The family planning coverage estimates are derived from a collaboration of the Countdown with Track20. Track20 has developed an advanced estimation tool called Family Planning Estimation Tool (FPET) which focuses on three indicators: modern contraceptive use, unmet need for modern contraceptives and demand satisfied with modern methods. The three indicators are closely related since demand is satisfied (this is the true coverage indicator) = use of modern contraceptives / (unmet need + use of modern contraceptives).
+
+FPET uses statistical modelling that incorporates all available data from surveys and may also use estimates obtained from facility data if the quality is sufficient.[^national-coverage-5] FPET allows for various types of survey data to be integrated into the estimates and fits a line that pulls from the trends. This utilizes the strength of multiple data points and minimizes the risk of comparing different surveys.
+
+[^national-coverage-5]: https://www.track20.org/pages/data_analysis/publications/methodological/family_planning_estimation_tool.php
+
+```{r, out.width = "100%", fig.align = "center", echo=FALSE, fig.cap = "FP among currently married women 15-49 years"}
+  knitr::include_graphics(here::here("images", "2-national-anc-cov.png"))
+```

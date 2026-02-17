@@ -1,0 +1,11 @@
+---
+title: "Global Coverage Targets"
+---
+
+```{r}
+#| echo: false
+
+source(here::here("_common.R"))
+```
+
+## Global coverage targets for coverage of health services

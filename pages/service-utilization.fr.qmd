@@ -1,0 +1,75 @@
+---
+title: "Health services utilization"
+---
+
+## Curative health services utilization for sick children
+
+### Rationale, Approach and implementation
+
+**Rationale: Scientific basis for the analysis**
+
+There is only limited information about curative service utilization, even though diarrhoea and pneumonia are leading causes of death in children. Service utilization statistics on care-seeking behaviour among children with recent illnesses (diarrhoea, acute respiratory infection, or fever in the last 2 weeks) is usually obtained from household surveys, relying on mother’s recall.
+
+Health facility data on outpatient (OPD) visits is an indicator of access to curative services: **less than one visit per person is often considered an indicator of poor access**. Similarly, data on hospital admissions is an indicator of access to services, while hospital mortality (case fatality) is an indicator of the quality of care.
+
+**Approach: Description of analytical steps**
+
+The data on OPD visits should include new and re-visits. Data are usually reported for under-5 years and 5 years and older. As with data on maternal and newborn care and immunization, the data quality is assessed, and adjustments are made for completeness of reporting and extreme outliers are corrected. The adjusted clean data are used for analysis at national and subnational levels.
+
+### Outpatient service utilization
+
+The data on outpatient visits should include both new and re-visits.
+
+**Mean number of OPD visits per child per year:**
+
+-   The numerator is the adjusted number of under-5 OPD visits in a year and the denominator is the total number of children under-5 which is taken from the DHIS2 projections. We do not expect this statistic to change much between years (less than 0.2 visits per child per year). A gradual increase suggests either improvements in access to OPD services or a greater disease burden for children. There is no fixed cut-off, but if the attendance is less than 1 visit per year per child, access to services is likely an issue. The OPD statistics are computed for the national and regional/provincial levels.
+
+-   A map with OPD use by region or province can reveal important sub-national differences.
+
+-   Regarding the interpretations for OPD:
+
+    -   What can be said about the data quality for OPD visits? Is there consistency of reported numbers between years?
+
+    -   What is the number of OPD visits per child per year during 2019-2023, is it increasing?
+
+    -   Is it lower than 1 visit per year, which is considered indicative of low access?
+
+    -   What can be said about the OPD visits per child per year by region/province in 2023? How large is the difference between top and bottom regions?
+
+\*\*Insert pic
+
+The percentage commonly lies between 15-45% of all visits that are under-fives. In high fertility countries (e.g., total fertility rate \> 4) we expect a higher percentage (e.g., over 30%) than in lower fertility countries. If the percent lies outside this range, there may be a data quality problem. Furthermore, if the percent changes much between years (e.g. more than 5 percentage points) then there may also be a data quality issue.
+
+\*\*Insert pic
+
+### Inpatient service utilization
+
+The data on hospital admissions (or discharges + deaths) include new and re-admissions. Data are usually reported for under-5 and 5 years and over. Some countries report discharges rather than admissions which would be the preferred data (discharges = admissions – deaths).
+
+A review of completeness of reporting and the presence of extreme outliers is used to assess data quality. Reporting rates of hospitals (and other facilities with in-patient services) may be more difficult to assess than for other services. Therefore, the decision to adjust for incomplete reporting also depends on the judgement by the country teams regarding the quality of the reporting rate for in-patient services.
+
+Also, extreme outliers may be more common for monthly admissions because of poor reporting, and adjustments need to be made cautiously. It is recommended to assess both the unadjusted and adjusted results.
+
+Number of admissions per 100 children under-5 per year:
+
+-   This is an indicator of access. A low value, e.g., less than 2 admissions per 100 children under-5 per year, is indicative of low access to services. The median for countries in sub-Saharan Africa for 2018-2022 was 4.5 admissions per year. Also here, we do not expect the indicator to change much per year: e.g. a change of 1 or more admissions per 100 children between years is unlikely, unless a specific explanation can be found (such as an epidemic).
+
+-   A map with IPD admissions among under-five use by region or province can reveal important sub-national differences.
+
+-   Regarding the interpretations for IPD:
+
+    -   Is there consistency of reported numbers of admissions / admission rates over time?
+
+    -   What is the number of admissions per 100 children under 5 per year during 2019-2023?
+
+    -   Trend - Is it low or high? What can be said about admissions per 100 children under-5 per year by region/province in 2023?
+
+**Case fatality rate:**
+
+An indicator of the quality of care, defined as the number of children who die in hospital divided by the total number admitted (discharges + deaths). This should be done using the unadjusted data, as we do not adjust: neither the numbers of deaths nor the number of admissions. The case fatality rate is considered an indicator of the quality of care. The lower the mortality in health facilities, the better the quality of care.
+
+\*\*insert pic
+
+Percent of admissions that are children under five:
+
+an indicator of data quality. The percentage commonly lies between 10-40% of all admissions that are under-fives. If the percentage lies outside this range, there may be a data quality problem or an exceptional situation. Furthermore, if the percent changes much between years (e.g. more than 5 percentage points), then there may also be a data quality issue.

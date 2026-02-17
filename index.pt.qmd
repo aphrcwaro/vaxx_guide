@@ -1,0 +1,34 @@
+# Bem-vindo {.unnumbered}
+
+```{r}
+#| echo: false
+
+source("_common.R")
+```
+
+## Visão Geral da Iniciativa Countdown to 2030 {.unnumbered}
+
+A iniciativa Countdown to 2030 para a Saúde da Mulher, da Criança e do Adolescente (The Countdown) é uma colaboração global que envolve académicos de instituições nacionais, regionais e internacionais, agências da ONU, o Banco Mundial e organizações da sociedade civil. A iniciativa acompanha o progresso na Saúde e Nutrição Reprodutiva, Materna, Neonatal, Infantil e do Adolescente (RMNCAH+N), promovendo a advocacia e a responsabilização através de uma análise rigorosa de dados.
+
+**Os principais objetivos incluem:**
+
+-   Fortalecer a análise e o monitoramento de dados liderados pelos países
+-   Promover a inovação e a geração de evidências através da colaboração multinacional
+-   Aprimorar a medição e o monitoramento global
+-   Melhorar a comunicação de políticas e programas
+
+Para mais informações sobre a iniciativa Countdown to 2030, visite: [O site The Countdown](https://www.countdown2030.org/about)
+
+## Sobre o Pacote R `cd2030.rmncah` {.unnumbered}
+
+O pacote R `cd2030.rmncah` e o aplicativo Shiny foram desenvolvidos para apoiar a geração de evidências e a análise de indicadores RMNCAH.
+
+**Os principais recursos incluem:**
+
+-   Interface amigável para gerenciamento e análise de dados
+-   Ferramentas para visualização e sumarização estatística
+-   Geração automatizada de relatórios
+
+## Agradecimentos {.unnumbered}
+
+The Countdown reconhece e agradece a contribuição do seguinte indivíduo no desenvolvimento dos códigos Stata que formam a espinha dorsal do pacote R `cd2030.rmncah` e do aplicativo Shiny:

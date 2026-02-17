@@ -1,0 +1,125 @@
+project:
+  type: book
+  output-dir: _book
+  
+published-title: "Last Updated"
+
+lightbox: true
+
+babelquarto:
+  languagecodes:
+  - name: fr
+    text: "Français"
+  - name: pt
+    text: "Português"
+  - name: en
+    text: "English"
+
+  mainlanguage: 'en'
+  languages: ['fr', 'pt']
+
+title-fr: "Réunion d'analyse par pays (CAM) 2025 - Guide d'analyse"
+title-pt: "Reunião de Análise por País (CAM) 2025 - Guia de Análise"
+  
+lang: fr
+
+bibliography: references.bib
+  
+format:
+  html:
+    theme:
+      light: cosmo
+      dark: darkly
+    code-link: true
+    author-meta: "Peter Kaberia"
+    
+    # pdf:
+    # documentclass: book
+    # toc: true
+    # number-sections: true
+    # include-in-header: preamble.tex 
+
+  # docx:
+  #   toc: true
+  #   toc-depth: 2
+  #   number-sections: true
+  #   reference-doc: quarto.docx
+
+
+book:
+  title: "Country Analysis Meeting (CAM) 2025 - Analysis Guide"
+  search:
+    type: textbox
+
+  page-footer: 
+    right: |
+      This book was built with <a href="https://quarto.org/">Quarto</a>.
+  site-url: https://aphrcwaro.github.io/rmncah_guide/
+  repo-url: https://github.com/aphrcwaro/cd2030.rmncah/
+  repo-branch: main
+  repo-actions: [edit, issue]
+  
+  date: today
+  date-format: "MMM D, YYYY"
+  
+  chapters:
+
+    - index.qmd
+    
+    - part: About this Guide
+      part-fr: À propos de ce guide
+      part-pt: Sobre este Guia
+      chapters:
+        - pages/general-intro.qmd
+        - pages/getting-started.qmd
+        - pages/app-features.qmd
+        - pages/loading-data.qmd
+
+    - part: Data Quality Assessment
+      part-fr: Évaluation de la qualité des données
+      part-pt: Avaliação da Qualidade dos Dados
+      chapters:
+        - pages/numerator-assessment.qmd
+        - pages/numerator-adjustments.qmd
+        - pages/denominator-assessment.qmd
+
+    - part: National Analyses
+      part-fr: Analyses Nationales
+      part-pt: Análises Nacionais
+      chapters:
+        - pages/national-coverage.qmd
+        - pages/national-inequality.qmd
+        - pages/national-global-coverage.qmd
+        - pages/national-subnational-mapping.qmd
+        - pages/national-equity-assessment.qmd
+
+    - part: Sub-national Analyses
+      part-fr: Analyses infranationales
+      part-pt: Análises Subnacionais
+      chapters:
+        - pages/subnational-coverage.qmd
+        - pages/subnational-inequality.qmd
+        - pages/subnational-global-coverage.qmd
+
+    - part: Mortality
+      part-fr: Mortalité
+      part-pt: Mortalidade
+      chapters:
+        - pages/maternal-mortality.qmd
+       
+    - part: Service Utilization
+      part-fr: Utilisation des services
+      part-pt: Utilização dos Serviços
+      chapters: 
+        - pages/service-utilization.qmd
+        
+    - part: Health System Perfomance
+      part-fr: Performance du système de santé
+      part-pt: Desempenho do Sistema de Saúde
+      chapters:
+        - pages/health-systems-analyses.qmd
+        - pages/health-systems-inputs.qmd
+        - pages/health-systems-outputs-by-inputs.qmd
+        - pages/private-sector-analyses.qmd
+
+    - pages/planning-ahead.qmd

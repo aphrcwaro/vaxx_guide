@@ -1,0 +1,104 @@
+# App Features
+
+```{r}
+#| echo: false
+
+source(here::here("_common.R"))
+```
+
+## Overview of App Features
+
+This section details the main components of the **cd2030.rmncah** Shiny App interface: the **Title Bar**, **Sidebar**, and **Main Panel (Body Content)**. Understanding these elements will help you navigate and use the app more effectively.
+
+## Title Bar
+
+The Title Bar, located at the top of the app, provides key information controls. The elements of the Title Bar, such as "Set Cache Directory/Save Cache" and "Download Report," are only displayed after data has been loaded.
+
+### Key Elements of the Title Bar
+
+1.  **Contextual Information**: Displays the current analysis context, such as the country of analysis (e.g., "Madagascar - Countdown Analysis").
+
+```{r, out.width= "100%", fig.align= "center", echo=FALSE}
+  knitr::include_graphics(here::here("images", "0-sidebar_navigation.png"))
+
+```
+
+2.  **Cache Management**
+
+    ```{r, out.width= "100%", fig.align= "center", echo=FALSE}
+      knitr::include_graphics(here::here("images", "0-cache-setting.png"))
+
+    ```
+
+    -   **Set Cache Directory:** This button allows you to specify a directory for saving intermediate results and progress.
+
+    -   **Save Cache:** This button allows you to save the progress of your analysis. This is useful for large analyses or for resuming a session later.
+
+    -   NB:
+
+        -   The Cache button is enabled only once valid data has been uploaded into the App
+        -   Changing the file path of the Cache mid analysis would require you to set the cache again, losing any saved progress after the last save.
+
+## Sidebar
+
+The Sidebar is located on the left side of the app and contains the main navigation elements.It provides navigation through the analysis workflow. The sections are arranged sequentially to guide you through the process.
+
+### Sidebar Navigation
+
+```{r, out.width= "100%", fig.align= "center", echo=FALSE}
+  knitr::include_graphics(here::here("images", "0-sidebar_navigation.png"))
+
+```
+
+1.  **Introduction**: Provides a brief overview of the app's purpose and functionality.
+
+2.  **Load Data**: Allows you to upload and manage your datasets (e.g. Health Facility Datasets, Master datasets, and cache file).
+
+3.  **Data Quality**: Provides tools for assessing the quality of your data, including checks for missing values and inconsistencies. Subsections include:
+
+    -   Reporting Rate
+    -   Outlier Detection
+    -   Consistency Check
+    -   Data Completeness
+    -   Calculate Ratios
+    -   Overall Score
+
+```{r, out.width = "100%", fig.align = "center", echo=F}
+knitr::include_graphics(here::here("images","1-dqa_reporting_rates.png"))
+```
+
+4.  **Analysis Set-up**: Allows you to configure the analysis by selecting the data sources (UN Estimates, WUENIC estimates, and survey data). It also allows you to map the sub-national survey and mapping data to the uploaded data.
+
+```{r, out.width= "100%", fig.align= "center", echo=FALSE}
+  knitr::include_graphics(here::here("images", "1-dqa_analysis_setup.png"))
+
+```
+
+5.  **National Analysis**: Provides tools for analyzing national-level data, including coverage and equity analysis.
+6.  **Sub-National Analysis:** For all sub-national analyses
+7.  **Mortality Analysis:** For all mortality analyses
+8.  **Service Utilization:** ForCurative health services utilization for sick children analyses
+9.  **Health System Performance:** Health systems progress and performance analysis
+
+## Main Panel(Body Content)
+
+The main panel is the central workspace where the analysis result, visualizations, and interactive elements are displayed.
+
+### Key Elements of the Main Panel
+
+1.  **Page Title**: Displays the current module or analysis step (e.g., "Reporting Rate").
+
+```{r, out.width = "100%", fig.align = "center", echo=F}
+knitr::include_graphics(here::here("images","1-dqa_reporting_rates.png"))
+```
+
+2.  **Action Buttons**: Provides context-specific actions:
+    -   **Download Report**: Helps you to download two reports: **Synthesis report** and the **Subnational one paper report**
+
+    -   **Generate Report**: Downloads a report specific to the analysis section.
+
+        NB: This button is green in colour and only appears in the sections where the user can download the section reports.
+
+    -   **Get Help**: Provides context-specific help and documentation for the current page.
+
+    -   **Download Plot / Download Data:** Allows the user to download the displayed output and the data associated with the output, respectively.

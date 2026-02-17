@@ -1,0 +1,51 @@
+---
+title: "Private sector and RMNCH services"
+format: html
+---
+
+```{r}
+#| echo: false
+
+source(here::here("_common.R"))
+```
+
+## Private sector share analysis
+
+### Rationale, Approach and implementation
+
+**Rationale: Scientific basis for the analysis**
+
+The private sector plays a significant role in delivering RMNCH (Reproductive, Maternal, Newborn, and Child Health) services, although its contribution varies both between and within countries. While routine health facility data are intended to capture private sector service delivery—such as the number of deliveries or family planning visits—this information is often incomplete, as reporting from private facilities tends to be less consistent than from public ones. Ideally, all private facilities should be included in the master facility list, but this is frequently not the case.
+
+To estimate the private sector’s contribution more accurately, survey data such as those from DHS and MICS can be used. These surveys include questions about the source of health services, distinguishing between public and private providers.
+
+**Approach: Description of analytical steps**
+
+In this analysis, we use three key indicators to assess the private sector’s role at the national level and disaggregated by urban and rural residence.
+
+The three indicators are:
+
+1.  **Deliveries**: Percent of live births occurring in health facilities among all live births in the last two years, by public private; with the share that is private
+
+2.  **Surgical interventions**: Percent of C-sections that occur in health facilities among all live births in the last two years, by public private; with the share that is private
+
+3.  **Curative care for children**: Percent of children under-five who have sought care for fever, acute respiratory illness or diarrhoea in the last two weeks before the interview, by public private; with the share that is private
+
+It is generally expected that women and children in urban areas rely more on privately provided services than those in rural areas.
+
+There are, however, two caveats to the interpretation:
+
+-   Rural women may use private services located in urban areas, which means that the percentage of women / children is overestimated for rural residents.
+
+-   The distinction between private-for-profit and non-profit private facilities is not made in this analysis. Each country uses a different classification and naming convention, and also for the survey respondent this distinction is difficult to make.
+
+**Implementation: Conducting analysis in the Shiny App**
+
+This can be analyzed using the Health System Performance tab -\>
+
+{r, out.width = "100%", fig.align = "center", echo=F} knitr::include_graphics(here::here("images","6-utilization_perc_under5_utilization.png"))
+
+```{r,out.width = "100%", fig.align = "center", echo=F}
+knitr::include_graphics(here::here("images","8-health_system_private_sector_general.png")) 
+
+```

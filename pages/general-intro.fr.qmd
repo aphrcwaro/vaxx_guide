@@ -1,0 +1,54 @@
+# Approche CD2030 CAM
+
+```{r}
+#| echo: false
+source (here::here("_common.R"))
+```
+
+Le Countdown to 2030 pour la santé des femmes, des enfants et des adolescents, le GFF, l'UNICEF, l'OMS, l'OOAS et d'autres partenaires collaborent pour renforcer les examens de progrès et de performance menés par les pays, tels que les examens annuels du secteur de la santé et les examens à mi-parcours des dossiers d'investissement. Ce guide est destiné aux équipes analytiques des pays du Countdown afin de développer un ensemble d'estimations nationales et infranationales pour les indicateurs clés RMNCAH-N, y compris l'équité, en utilisant des séries chronologiques de cinq ans de données de routine et de résultats d'enquêtes.
+
+Une grande attention est accordée à l'obtention d'un ensemble de données propre avec les corrections et ajustements nécessaires pour les biais connus. La couverture des services et l'équité, la mortalité maternelle et périnatale, l'utilisation des services de santé et la performance des systèmes de santé sont les principaux sujets, l'accent étant mis sur le suivi des cibles nationales et infranationales, ainsi que des cibles mondiales. La figure ci-dessous montre l'aperçu général de l'approche CAM 
+
+```{r, out.width = "100%", fig.align = "center", echo=F}
+knitr::include_graphics(here::here("images", "0-overview_cam.png"))
+# library(knitr)
+# opts_chunk$set(list(echo = FALSE, eval = FALSE))
+```
+
+## Organisation du Guide
+
+Ce guide est organisé en sept sections, chacune se concentrant sur un domaine spécifique de l'analyse des données lié à la santé et à la nutrition reproductive, maternelle, néonatale, infantile et adolescente (RMNCAH-N). Le guide fournit une approche complète de l'analyse des données de santé de routine et des résultats d'enquêtes, en mettant l'accent sur la qualité des données, la couverture, l'équité et la performance des systèmes de santé. Les sept sections d'analyse de données de ce guide sont :
+
+1.  Section 1 : Évaluation de la qualité des données des établissements de santé
+2.  Section 2 : Analyses nationales (Couverture et Équité)
+3.  Section 3 : Analyse infranationale (Couverture et Inégalité)
+4.  Section 4 : Mortalité maternelle, mortinaissances et mortalité néonatale
+5.  Section 5 : Utilisation des services de santé curatifs pour les enfants malades
+6.  Section 6 : Progrès et performance des systèmes de santé
+7.  Section 7 : Planification de l'utilisation future des données
+
+Ces sections sont conçues pour être utilisées de manière modulaire, permettant aux pays de sélectionner les sujets les plus pertinents pour leur contexte et la disponibilité de leurs données.
+
+Chaque section comprend :
+
+-   **Pourquoi/Justification -** la base scientifique de l'analyse ;
+-   **Approche** - un guide étape par étape sur la manière de mener l'analyse ; et
+-   **Mise en œuvre -** l'utilisation de l'application R Shiny pour la visualisation et l'interprétation des données.
+
+## Sources de données {#intro-data-sources}
+
+L'approche CD2030 CAM utilise une variété de sources de données, y compris :
+
+-   **Données des établissements de santé** : Données de santé de routine collectées auprès des établissements de santé, y compris la couverture des services, la performance des systèmes de santé et l'utilisation des services de santé.
+-   **Enquêtes** : Enquêtes représentatives au niveau national, telles que les Enquêtes Démographiques et de Santé (EDS) et les Enquêtes en Grappes à Indicateurs Multiples (MICS), qui fournissent des données sur les indicateurs de santé, l'équité et l'utilisation des services de santé.
+-   **Données administratives** : Données collectées par les agences gouvernementales, telles que les systèmes d'enregistrement des faits d'état civil et les systèmes d'information de gestion de la santé (SIGS), qui fournissent des informations sur les résultats de santé et la prestation de services.
+-   **Autres sources de données** : Autres sources de données pertinentes, telles que les données de recensement, les estimations de population et les données sur le financement de la santé, qui fournissent un contexte supplémentaire pour l'analyse.
+
+## Résultats attendus {#intro-expected-outputs}
+
+-   **Rapports de synthèse/affiches** (fichiers .pdf, .doc)
+-   **Rapport national complet** (national/infranational) (fichiers .pdf, .doc) - à télécharger par sections depuis l'application Shiny et à compiler dans un rapport complet avec les résultats de l'analyse et les interprétations.
+-   **Fichiers reproductibles d'analyse par pays** (fichiers .rds)
+-   **Fichiers de données ajustés et/ou résumés** (fichiers .csv, .dta, .xlsx)
+
+Les fichiers reproductibles d'analyse par pays (fichiers .rds) sont le résultat final de l'analyse, qui peuvent être utilisés pour une analyse et une visualisation ultérieures. Ces fichiers contiennent les données nettoyées et traitées, les paramètres d'analyse spécifiques au pays ainsi que les résultats de l'analyse, y compris les indicateurs de couverture, d'équité et de performance des systèmes de santé.
