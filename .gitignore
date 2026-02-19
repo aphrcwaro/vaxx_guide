@@ -33,3 +33,5 @@ node_modules/
 .DS_Store
 /site_libs
 /site_libs
+
+**/*.quarto_ipynb

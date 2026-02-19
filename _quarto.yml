@@ -47,15 +47,15 @@ format:
 
 
 book:
-  title: "Country Analysis Meeting (CAM) 2025 - Analysis Guide"
+  title: "CD2030 Datasuite Vaxx App Guide"
   search:
     type: textbox
 
   page-footer: 
     right: |
-      This book was built with <a href="https://quarto.org/">Quarto</a>.
-  site-url: https://aphrcwaro.github.io/rmncah_guide/
-  repo-url: https://github.com/aphrcwaro/cd2030.rmncah/
+      This guide was built with <a href="https://quarto.org/">Quarto</a>.
+  site-url: https://aphrcwaro.github.io/vaxx_guide/
+  repo-url: https://github.com/aphrcwaro/vaxx_guide/
   repo-branch: main
   repo-actions: [edit, issue]
   
@@ -101,25 +101,3 @@ book:
         - pages/subnational-inequality.qmd
         - pages/subnational-global-coverage.qmd
 
-    - part: Mortality
-      part-fr: Mortalité
-      part-pt: Mortalidade
-      chapters:
-        - pages/maternal-mortality.qmd
-       
-    - part: Service Utilization
-      part-fr: Utilisation des services
-      part-pt: Utilização dos Serviços
-      chapters: 
-        - pages/service-utilization.qmd
-        
-    - part: Health System Perfomance
-      part-fr: Performance du système de santé
-      part-pt: Desempenho do Sistema de Saúde
-      chapters:
-        - pages/health-systems-analyses.qmd
-        - pages/health-systems-inputs.qmd
-        - pages/health-systems-outputs-by-inputs.qmd
-        - pages/private-sector-analyses.qmd
-
-    - pages/planning-ahead.qmd
