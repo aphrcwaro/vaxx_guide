@@ -1,0 +1,50 @@
+---
+title: "CD2030 Datasuite – Module Vaxx : Guide Utilisateur"
+subtitle: "Une Plateforme Standardisée Multinationale pour l’Analyse de la Qualité des Données et de la Couverture Vaccinale"
+---
+
+```{r}
+#| echo: false
+
+source("_common.R")
+```
+
+Bienvenue dans le **Guide Utilisateur du Module Vaxx – CD2030 Datasuite**.
+Ce guide fournit des instructions étape par étape pour utiliser le module Vaxx au sein du Datasuite. Le module permet une analyse standardisée et reproductible des données de vaccination issues des établissements de santé.
+
+# À propos du CD2030 Datasuite
+Le **CD2030 Datasuite** est une plateforme analytique modulaire destinée au suivi multicountry des indicateurs SRMNIA. Le module Vaxx se concentre sur la couverture vaccinale et l’évaluation de la qualité des données.
+
+
+# À qui s’adresse ce guide ?
+Ce guide est destiné aux:
+
+- **Analystes nationaux** réalisant des analyses des données de vaccination  
+- **Agents de Suivi & Évaluation (S&E)** examinant les tendances de couverture  
+- **Points focaux Qualité des données** effectuant des évaluations DQA  
+- **Conseillers politiques et gestionnaires de programmes** interprétant les résultats  
+- **Partenaires techniques et réviseurs** validant la méthodologie  
+
+# Comment Utiliser ce Guide
+
+Les chapitres sont organisés selon le flux de travail de l’application:
+
+-   **Prise en main** – Installation et configuration
+-   **Aperçu de l’application** – Structure de l’interface et navigation -
+-   **Gestion des données** – Chargement, validation et gestion du cache
+-   **Évaluation de la qualité des données** – Taux de notification, valeurs aberrantes, cohérence, ratios
+-   **Ajustement des données** – Ajustements du numérateur et du dénominateur
+-   **Analyses nationales et infranationales** – Couverture, inégalités, cartographie
+-   **Rapports et sorties** – Exportation des résultats et génération des rapports
+Si vous découvrez l’application, il est recommandé de suivre les chapitres dans l’ordre.Informations de Version
+
+# Aperçu du flux analytique
+Le module Vaxx suit un flux de travail structuré :
+
+**Charger les données → Valider → Nettoyer → Ajuster → Analyser → Exporter → Rapporter**
+
+Chaque étape s’appuie sur la précédente afin de garantir que les résultats soient méthodologiquement solides et reproductibles.
+
+## Informations de Version
+-   **Module Datasuite :** Vaxx 2.0.0
+-   **Date de mise à jour :** Février 2026

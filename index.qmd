@@ -1,38 +1,78 @@
-# Welcome {.unnumbered}
+---
+title:  "CD2030 Datasuite – Vaxx Module User Guide"
+subtitle: "A Standardized Multicountry Platform for Immunization Data Quality and Coverage Analysis"
+---
 
 ```{r}
 #| echo: false
 
-source("_common.R")
+source(here::here( "_common.R"))
 ```
 
-## Overview of the Countdown to 2030 - Datasuite landing page (About)? {.unnumbered}
+Welcome to the **CD2030 Datasuite – Vaxx Module User Guide**.
 
-The Countdown to 2030 for Women’s, Children’s and Adolescents’ Health (The Countdown) initiative is a global collaboration involving academics from national, regional, and international institutions, UN agencies, the World Bank, and civil society organizations. The initiative tracks progress in Reproductive, Maternal, Newborn, Child, and Adolescent Health and Nutrition (RMNCAH+N), fostering advocacy and accountability through rigorous data analysis.
+This guide provides step-by-step instructions for using the Vaxx module within the CD2030 Datasuite. The module supports standardized and reproducible analysis of immunization routine health facility data across countries.
 
-**Key objectives include:**
+The guide is structured to follow the analytical workflow of the application—from data loading and validation to adjustment, analysis, and report generation.
 
--   Strengthening country-led data analysis and monitoring
--   Fostering innovation and evidence generation through multi-country collaboration
--   Enhancing global measurement and monitoring Improving policy and program communication
+# About CD2030 Datasuite
 
-For more on Countdown to 2030 Initiative, visit: [The Countdown website](https://www.countdown2030.org/about)
+The **CD2030 Datasuite** is a modular analytical platform designed to support multicountry monitoring of RMNCAH indicators. The Vaxx module focuses specifically on immunization coverage and data quality assessment.
 
-## About the `CD2030 Datasuite Vaxx App` {.unnumbered}
+Key principles of the platform include:
 
-The `Vaxx App` is one of the analytical applications within the `CD2030 Datasuite` that was developed to support evidence generation and analysis of immunization indicators. The app can be downloaded and installed from [here] (https://github.com/aphrcwaro/datasuite_public/releases)
+-   Standardization and multilingual capability across countries\
+-   Transparency in data adjustments\
+-   Reproducibility of analytical outputs\
+-   Automated report generation\
+-   Alignment with Countdown to 2030 monitoring frameworks
 
-Key features include:
+# Who Should Use This Guide?
 
--   User-friendly interface for data management and analysis
+This guide is intended for:
 
--   Tools for visualization and statistical summation
+-   **National analysts** conducting immunization data analysis\
+-   **Monitoring & Evaluation officers** reviewing coverage trends\
+-   **Data Quality focal persons** performing DQA assessments\
+-   **Policy advisors and program managers** interpreting outputs\
+-   **Technical partners and reviewers** validating methodology
 
--   Automated report generation
+# How to Use This Guide
 
-## 📥 Download the Guidebook (PDF)
+The chapters are organized according to the application workflow:
 
-- [English PDF](Downloads/Country-Analysis-Meeting-CAM-2025-Analysis-Guide.pdf)
-- [Français PDF](Downloads/Country-Analysis-Meeting-CAM-2025-Analysis-Guide - FR.pdf)
-- [Português PDF](Downloads/Country-Analysis-Meeting-CAM-2025-Analysis-Guide - PT.pdf)
+1.  **Getting Started** – Installation and setup
+2.  **App Overview** – Interface structure and navigation
+3.  **Data Management** – Loading, validation, and cache management
+4.  **Data Quality Assessment** – Reporting rate, outliers, consistency, ratios
+5.  **Data Adjustment** – Numerator and denominator adjustments
+6.  **National & Subnational Analyses** – Coverage, inequality, mapping
+7.  **Reporting & Outputs** – Exporting results and generating reports
 
+If you are new to the app, it is recommended to follow the chapters sequentially.
+
+# Analytical Workflow Overview
+
+The Vaxx module follows a structured workflow:
+
+> **Load Data → Validate → Clean → Adjust → Analyze → Export → Report**
+
+Each stage builds upon the previous one to ensure that results are methodologically sound and reproducible.
+
+# Version Information
+
+This guide corresponds to:
+
+- **Datasuite Module:** Vaxx\
+
+- **Application Version:**\
+
+    ## **Last Updated:** February, 2026
+
+    ## 📥 Other formats
+
+-   [English PDF](Downloads/Country-Analysis-Meeting-CAM-2025-Analysis-Guide.pdf)
+
+-   [Français PDF](Downloads/Country-Analysis-Meeting-CAM-2025-Analysis-Guide%20-%20FR.pdf)
+
+-   [Português PDF](Downloads/Country-Analysis-Meeting-CAM-2025-Analysis-Guide%20-%20PT.pdf)

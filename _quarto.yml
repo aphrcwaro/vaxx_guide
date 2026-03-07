@@ -1,103 +1,76 @@
 project:
-  type: book
-  output-dir: _book
-  
-published-title: "Last Updated"
+  type: website
+  output-dir: _site
 
-lightbox: true
+website:
+  title: "CD2030 Datasuite Vaxx Guide"
 
-babelquarto:
-  languagecodes:
-  - name: fr
-    text: "Français"
-  - name: pt
-    text: "Português"
-  - name: en
-    text: "English"
+  site-url: https://aphrcwaro.github.io/vaxx_guide/
+  repo-url: https://github.com/aphrcwaro/vaxx_guide
+  repo-actions: [edit, issue]
 
-  mainlanguage: 'en'
-  languages: ['fr', 'pt']
+  page-footer:
+    right: |
+      Built with <a href="https://quarto.org">Quarto</a>
 
-title-fr: "Réunion d'analyse par pays (CAM) 2025 - Guide d'analyse"
-title-pt: "Reunião de Análise por País (CAM) 2025 - Guia de Análise"
-  
-lang: fr
+  sidebar:
+    contents:
+      - index.qmd
 
-bibliography: references.bib
-  
+      - section: About this Guide
+        contents:
+          - pages/general-intro.qmd
+          - pages/getting-started.qmd
+          - pages/app-features.qmd
+          - pages/loading-data.qmd
+
+      - section: Data Quality Assessment
+        contents:
+          - pages/numerator-assessment.qmd
+          - pages/numerator-adjustments.qmd
+          - pages/denominator-assessment.qmd
+
+      - section: National Analyses
+        contents:
+          - pages/national-coverage.qmd
+          - pages/national-inequality.qmd
+          - pages/national-global-coverage.qmd
+          - pages/national-subnational-mapping.qmd
+          - pages/national-equity-assessment.qmd
+
+      - section: Sub-national Analyses
+        contents:
+          - pages/subnational-coverage.qmd
+          - pages/subnational-inequality.qmd
+          - pages/subnational-global-coverage.qmd
+
 format:
   html:
     theme:
       light: cosmo
       dark: darkly
+    toc: true
     code-link: true
-    author-meta: "Peter Kaberia"
-    
-    # pdf:
-    # documentclass: book
-    # toc: true
-    # number-sections: true
-    # include-in-header: preamble.tex 
 
-  # docx:
-  #   toc: true
-  #   toc-depth: 2
-  #   number-sections: true
-  #   reference-doc: quarto.docx
+execute:
+  echo: false
+  warning: false
+  message: false
 
+lang: en
+bibliography: references.bib
 
-book:
-  title: "CD2030 Datasuite Vaxx App Guide"
-  search:
-    type: textbox
+# Multilingual configuration
+babelquarto:
+  mainlanguage: en
+  languages:
+    - fr
+    - pt
 
-  page-footer: 
-    right: |
-      This guide was built with <a href="https://quarto.org/">Quarto</a>.
-  site-url: https://aphrcwaro.github.io/vaxx_guide/
-  repo-url: https://github.com/aphrcwaro/vaxx_guide/
-  repo-branch: main
-  repo-actions: [edit, issue]
-  
-  date: today
-  date-format: "MMM D, YYYY"
-  
-  chapters:
-
-    - index.qmd
-    
-    - part: About this Guide
-      part-fr: À propos de ce guide
-      part-pt: Sobre este Guia
-      chapters:
-        - pages/general-intro.qmd
-        - pages/getting-started.qmd
-        - pages/app-features.qmd
-        - pages/loading-data.qmd
-
-    - part: Data Quality Assessment
-      part-fr: Évaluation de la qualité des données
-      part-pt: Avaliação da Qualidade dos Dados
-      chapters:
-        - pages/numerator-assessment.qmd
-        - pages/numerator-adjustments.qmd
-        - pages/denominator-assessment.qmd
-
-    - part: National Analyses
-      part-fr: Analyses Nationales
-      part-pt: Análises Nacionais
-      chapters:
-        - pages/national-coverage.qmd
-        - pages/national-inequality.qmd
-        - pages/national-global-coverage.qmd
-        - pages/national-subnational-mapping.qmd
-        - pages/national-equity-assessment.qmd
-
-    - part: Sub-national Analyses
-      part-fr: Analyses infranationales
-      part-pt: Análises Subnacionais
-      chapters:
-        - pages/subnational-coverage.qmd
-        - pages/subnational-inequality.qmd
-        - pages/subnational-global-coverage.qmd
-
+  languagecodes:
+    - name: en
+      text: "English"
+    - name: fr
+      text: "Français"
+    - name: pt
+      text: "Português"
